@@ -1,8 +1,9 @@
-# Awesome MPP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome MPP — The Machine Payments Protocol Registry [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![MPP Services](https://img.shields.io/badge/services-80%2B-brightgreen)](https://mpp.dev/services)
-[![Payment Methods](https://img.shields.io/badge/chains-15%2B-blue)](#payment-methods)
-[![SDKs](https://img.shields.io/badge/SDKs-TypeScript%20%7C%20Python%20%7C%20Rust%20%7C%20Go%20%7C%20Ruby-orange)](#sdks)
+[![MPP Projects](https://img.shields.io/badge/projects-100%2B-brightgreen)](#contents)
+[![MPP Services](https://img.shields.io/badge/services-80%2B-blue)](https://mpp.dev/services)
+[![Payment Methods](https://img.shields.io/badge/chains-15%2B-purple)](#payment-methods)
+[![SDKs](https://img.shields.io/badge/SDKs-TypeScript%20%7C%20Python%20%7C%20Rust%20%7C%20Go%20%7C%20Ruby%20%7C%20Elixir%20%7C%20.NET%20%7C%20Dart-orange)](#sdks)
 
 > A curated list of resources, tools, SDKs, and services for the [Machine Payments Protocol (MPP)](https://mpp.dev) -- the open standard for AI agent payments and machine-to-machine commerce.
 
@@ -255,6 +256,10 @@ The payments infrastructure powering MPP:
 
 - [The Machine Payments Protocol](https://tempo.xyz/blog/mainnet/) - Tempo mainnet launch + MPP introduction.
 - [Stripe Agentic Commerce Solutions](https://stripe.com/blog/introducing-our-agentic-commerce-solutions) - Stripe's broader agent payment strategy.
+
+## Keywords
+
+Searching for MPP tools? This list covers: **MPP registry**, **MPP directory**, **MPP tools list**, **Machine Payments Protocol tools**, **Stripe MPP SDK**, **Tempo payments SDK**, **AI agent payments**, **HTTP 402 payment protocol**, **agent-to-agent payments**, **machine-to-machine payments**, **agentic commerce tools**, **pay-per-call API**, **micropayment protocol**, **stablecoin payments for agents**, **MCP payment tools**, **paid API directory**.
 
 ## Contributing
 
