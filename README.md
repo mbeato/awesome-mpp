@@ -73,6 +73,7 @@ MPP is payment-method agnostic. Each chain/rail has its own plugin:
 - [@dexterai/mpp](https://github.com/Dexter-DAO/dexter-mpp) - Managed settlement (no blockchain infra needed).
 - [mpp-solana](https://github.com/starc007/mpp-solana) - SPL token support.
 - [mppx-solana](https://github.com/nitishxyz/mppx-solana) - mppx plugin for Solana.
+- [mpp-spl](https://github.com/nullxnothing/mpp-spl) - SPL token + pump.fun payment layer. Token registry, Jupiter/bonding curve pricing, charge config resolver. ![Stars](https://img.shields.io/github/stars/nullxnothing/mpp-spl)
 
 ### Lightning
 
