@@ -182,6 +182,7 @@ Services with built-in MPP payment support:
 - [APIMesh](https://github.com/mbeato/conway) - 27 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, seo-audit, email-verify, tech-stack, +21 more). Supports x402 + MPP.
 - [paid-image-api](https://github.com/cepuyut/paid-image-api) - Pay-per-request AI image generation on Tempo.
 - [Dtelecom](https://github.com/dteIecom/Dtelecom) - Real-time voice, video & voice AI. Pay-per-use via x402/MPP.
+- [Surf](https://surf.cascade.fyi) - Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents. Dual-protocol (x402 + MPP) on Base, Solana, and Tempo. Unified MCP server at `/mcp`. ([GitHub](https://github.com/cascade-protocol/surf))
 
 ### Proxied (via mpp.tempo.xyz)
 
