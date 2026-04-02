@@ -170,6 +170,31 @@ Community:
 - [agent-verifier](https://github.com/goodmeta/agent-verifier) - Agent spending verification with budget caps and cross-agent tracking.
 - [secure-exec](https://github.com/achilliesbot/secure-exec) - Sandboxed tool execution oracle with IAM-gated dry-run. x402/MPP payment gate.
 
+- [mpay](https://www.npmjs.com/package/mpay) - TypeScript SDK for the [**Machine Payments Protocol**](https://machinepayments.dev).
+- [mppfinance](git+https://github.com/mppfinance/mppfinance-sdk.git) - Virtual Visa cards for AI agents — powered by Machine Payments Protocol.
+- [@stellar/mpp](git+https://github.com/stellar/stellar-mpp-sdk.git) - Stellar blockchain payment method for the Machine Payments Protocol (MPP).
+- [@atxp/mpp](git+https://github.com/atxp-dev/sdk.git) - ATXP MPP (Machine Payments Protocol) support.
+- [@moldy/mega-mpp-sdk](git+https://github.com/ifavo/mega-mpp-sdk.git) - MegaETH payment method for the Machine Payments Protocol.
+- [@raycashxyz/mpp-pay](git+https://github.com/raycashxyz/mpp-pay.git) - CLI for making paid API requests via the Machine Payments Protocol.
+- [@grantex/mpp](git+https://github.com/mishrasanjeev/grantex.git) - Grantex agent identity and delegation for MPP (Machine Payments Protocol).
+- [@paytoll/sdk](git+https://github.com/paytoll/sdk.git) - Developer toolkit for accepting machine payments on Solana via the Machine Payments Protocol (MPP).
+- [clawmpp](https://www.npmjs.com/package/clawmpp) - Machine Payments Protocol integration for OpenClaw — one wallet, every AI service.
+- [@solobank/mpp-solana](https://www.npmjs.com/package/@solobank/mpp-solana) - Solana USDC payment method for the Machine Payments Protocol (MPP).
+- [x402](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@x402/evm](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol EVM Implementation.
+- [@x402/extensions](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol Extensions.
+- [@x402/svm](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol SVM Implementation.
+- [@x402/core](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@x402/fetch](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol Fetch Extension.
+- [@coinbase/x402](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [x402-fetch](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [twitsh](git+https://github.com/etherlect/twitsh.git) - X/Twitter data CLI with x402 micropayment handling.
+- [@b3dotfun/anyspend-x402](git+https://github.com/b3-fun/anyspend-x402.git) - AnySpend x402 Payment Protocol - Extended implementation with multi-chain support.
+- [x402-axios](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@relai-fi/x402](git+https://github.com/web3luka/relai-sdk.git) - Unified x402 payment SDK for Solana, Base, Avalanche, SKALE Base, SKALE BITE, Polygon, and Ethereum. Automatic 402 handling with zero gas fees.
+- [@x402/express](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [x402-stacks](git+https://github.com/tony1908/x402Stacks.git) - TypeScript library for implementing x402 payment protocol on Stacks blockchain.
+- [@b3dotfun/anyspend-x402-fetch](git+https://github.com/b3-fun/anyspend-x402.git) - AnySpend x402 Fetch client - Extended x402 payment protocol integration for native fetch API with multi-token support.
 ## Services
 
 ### First-Party (native MPP)
@@ -316,6 +341,26 @@ Available through Tempo's MPP proxy -- pay with any MPP method:
 - [tempo-x402-demo](https://github.com/compusophy/tempo-x402-demo) - Interactive x402 demo on Tempo.
 - [emv-tempo](https://github.com/zhangzhongnan928/emv-tempo) - EMV contactless card payments settled on Tempo.
 
+- [awesome-mpp](https://github.com/mbeato/awesome-mpp) - The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments.
+- [mpp-sample](https://github.com/mashharuki/mpp-sample) - Machine Payments Protocolのサンプルコードです.
+- [tiktok-mpp-api](https://github.com/mf336/tiktok-mpp-api) - TikTok scraper API powered by Machine Payments Protocol (MPP).
+- [mpp-webrtc](https://github.com/mizanxali/mpp-webrtc) - AI agents that pay per-second to watch live video feeds through machine payments protocol (MPP) over webRTC.
+- [mpp-sdk](https://github.com/solana-foundation/mpp-sdk) - Solana payment method for the Machine Payments Protocol.
+- [mppfinance-sdk](https://github.com/mppfinance/mppfinance-sdk) - Virtual Visa cards for AI agents — powered by Machine Payments Protocol.
+- [a2a-mpp-sdk](https://github.com/dahlinomine/a2a-mpp-sdk) - TypeScript SDK for implementing the Machine Payment Protocol (MPP) for automated commerce between AI agents.
+- [mpp-settlement-engine](https://github.com/dahlinomine/mpp-settlement-engine) - A lightweight implementation of the Machine Payment Protocol (MPP) for sub-cent agent-to-agent service settlements.
+- [mpp-core-contracts](https://github.com/dahlinomine/mpp-core-contracts) - Solidity implementation of the Machine Payment Protocol for autonomous agent-to-agent settlement.
+- [mpp-wallet-js](https://github.com/dahlinomine/mpp-wallet-js) - A lightweight TypeScript SDK for implementing the Machine Payment Protocol (MPP) in autonomous agent wallets.
+- [tempo-hackathon](https://github.com/kphed/tempo-hackathon) - Dossier: Research-as-a-service over MPP. Ask a question, get cited research. One cent. Includes native MCP server support. Built in <2 hours for the Tempo.xyz hackathon.
+- [agent-payments-landscape](https://github.com/goodmeta/agent-payments-landscape) - Living comparison of agent payment protocols: AP2, ACP, x402, MPP, UCP. Verified claims with primary sources.
+- [knox](https://github.com/stephancill/knox) - A moddable payments CLI for x402 and MPP.
+- [gateway](https://github.com/tomopay/gateway) - Payment gateway for MCP tools — charge agents per tool call (withPayments()). Supports x402, MPP, Stripe.
+- [tomopay-gateway](https://github.com/QuinnYates/tomopay-gateway) - Payment gateway for MCP servers — monetize your tools with one wrapper. Supports x402, MPP, and Stripe.
+- [agent-commerce-protocol](https://github.com/nicoroldan1/agent-commerce-protocol) - ACE (Agent Commerce Exchange) — Open protocol for agent-native commerce: discovery, trust, and catalog for the agentic web. Payment-agnostic (x402, MPP, Stripe).
+- [ows-react-native](https://github.com/rkmonarch/ows-react-native) - The first React Native library for the Open Wallet Standard (OWS) — policy-gated autonomous payments on Solana using USDC, with Stripe MPP / x402 HTTP 402 support.
+- [flow-core](https://github.com/achilliesbot/flow-core) - Unified IAM pre-execution gateway. One call replaces MemGuard + NoLeak + EP + RiskOracle. x402/MPP payment gate, unified proof hash.
+- [mpp-bazaar](https://github.com/ethanmlam/mpp-bazaar) - Food truck ordering API with dynamic pricing powered by the Machine Payments Protocol (MPP). The thing x402 can't do.
+- [PayRep](https://github.com/NadirEcho/PayRep) - Merchant trust scores for AI agent payments — MPP + x402.
 ## Tempo Blockchain
 
 The payments infrastructure powering MPP:
