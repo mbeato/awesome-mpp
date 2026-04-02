@@ -86,6 +86,10 @@ MPP is payment-method agnostic. Each chain or rail has its own plugin.
 - [@solobank/mpp-solana](https://www.npmjs.com/package/@solobank/mpp-solana) - Solana USDC payment method for MPP.
 - [@paytoll/sdk](https://github.com/paytoll/sdk) - Developer toolkit for accepting machine payments on Solana via MPP.
 
+- [Alchemy](https://agents.alchemy.com/) - Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains.
+- [Allium](https://allium.so) - System of record for onchain finance. Real-time Blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer.
+- [Codex](https://codex.io) - Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL.
+- [QuickNode](https://quicknode.com/) - Quicknode Core Node API for 80+ blockchains and 140+ networks.
 ## Framework Integrations
 
 The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js, Elysia, Bun.serve, and Deno.serve. Community integrations extend MPP to additional frameworks.
@@ -104,6 +108,8 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [tollbooth](https://github.com/abhay/tollbooth) - Solana payment gateway with MPP, gasless fee relayer, and axum middleware.
 - [Code Storage](https://code.storage) - Paid Git repository creation with authenticated clone URLs.
 
+- [Object Storage](https://tempo.xyz) - S3/R2-compatible object storage with dynamic per-size pricing.
+- [StableUpload](https://stableupload.dev) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
 ## Agent Tools and CLIs
 
 - [incur](https://github.com/wevm/incur) - CLI framework for agents and humans by wevm.
@@ -120,6 +126,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [knox](https://github.com/stephancill/knox) - Moddable payments CLI for x402 and MPP.
 - [@raycashxyz/mpp-pay](https://github.com/raycashxyz/mpp-pay) - CLI for making paid API requests via MPP.
 
+- [Parallel](https://parallel.ai) - Web search, page extraction, and multi-hop web research.
 ## Middleware and Extensions
 
 - [mppx-rate-limit](https://github.com/leigents/mppx-rate-limit) - Rate limiting for MPP routes.
@@ -237,6 +244,15 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [agent-payments-landscape](https://github.com/goodmeta/agent-payments-landscape) - Living comparison of agent payment protocols including AP2, ACP, x402, MPP, and UCP.
 - [tempo-hackathon](https://github.com/kphed/tempo-hackathon) - Research-as-a-service over MPP with cited results for one cent per query.
 
+- [StableTravel](https://stabletravel.dev) - Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware.
+- [Stripe Climate](https://stripe.com/climate) - Fund permanent carbon removal projects via Stripe Climate.
+- [PostalForm](https://postalform.com) - Print and mail real letters and documents via AI agents.
+- [Prospect Butcher](https://www.prospectbutcher.com) - Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent.
+- [StableEmail](https://stableemail.dev) - Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts.
+- [StableEnrich](https://stableenrich.dev) - Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment.
+- [StablePhone](https://stablephone.dev) - AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request.
+- [StableSocial](https://stablesocial.dev) - Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit.
+- [StableStudio](https://stablestudio.dev) - Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan.
 ### Demos and Examples
 
 - [stellar-mpp-demo](https://github.com/stellar-experimental/stellar-mpp-demo) - Stellar chat via micropayments.
@@ -250,6 +266,7 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [emv-tempo](https://github.com/zhangzhongnan928/emv-tempo) - EMV contactless card payments settled on Tempo.
 - [mpp-sample](https://github.com/mashharuki/mpp-sample) - Sample code demonstrating the Machine Payments Protocol.
 
+- [awesome-mpp](https://github.com/mbeato/awesome-mpp) - The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments.
 ## Tempo Blockchain
 
 The payments infrastructure powering MPP:
