@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-02T01:00:19.219Z",
-  "total_projects": 308,
+  "generated_at": "2026-04-02T01:13:43.270Z",
+  "total_projects": 226,
   "categories": [
     {
-      "name": "Protocol & Specs",
+      "name": "Protocol and Specs",
       "subcategories": [
         {
           "name": "General",
@@ -11,7 +11,7 @@
             {
               "name": "mpp-specs",
               "url": "https://github.com/tempoxyz/mpp-specs",
-              "description": "Official MPP specification (RFC-style `Payment` HTTP auth scheme)",
+              "description": "Official MPP specification using an RFC-style Payment HTTP auth scheme",
               "type": "github"
             },
             {
@@ -23,7 +23,7 @@
             {
               "name": "IETF Draft",
               "url": "https://datatracker.ietf.org/doc/draft-ryan-httpauth-payment/",
-              "description": "`draft-ryan-httpauth-payment` by Brendan Ryan (Tempo), Jeff Weinstein (Stripe)",
+              "description": "The `draft-ryan-httpauth-payment` internet-draft by Brendan Ryan (Tempo) and Jeff Weinstein (Stripe)",
               "type": "external"
             }
           ]
@@ -39,33 +39,31 @@
             {
               "name": "mppx",
               "url": "https://github.com/wevm/mppx",
-              "description": "TypeScript SDK (server + client + proxy). Hono, Express, Next.js middleware",
-              "type": "github",
-              "package": "npm i mppx"
+              "description": "TypeScript SDK with server, client, and proxy support. Includes Hono, Express, and Next.js middleware. Also works as a zero-config reverse proxy for payment gating",
+              "type": "github"
             },
             {
               "name": "pympp",
               "url": "https://github.com/tempoxyz/pympp",
-              "description": "Python SDK",
-              "type": "github",
-              "package": "pip install pympp"
+              "description": "Python SDK for MPP",
+              "type": "github"
             },
             {
               "name": "mpp-rs",
               "url": "https://github.com/tempoxyz/mpp-rs",
-              "description": "Rust SDK",
+              "description": "Rust SDK for MPP",
               "type": "github"
             },
             {
               "name": "tempo-go",
               "url": "https://github.com/tempoxyz/tempo-go",
-              "description": "Go SDK for Tempo blockchain with MPP client support",
+              "description": "Go SDK for Tempo Blockchain with MPP client support",
               "type": "github"
             },
             {
               "name": "tempo-ts",
               "url": "https://github.com/tempoxyz/tempo-ts",
-              "description": "TypeScript tooling for Tempo (used by mppx internally)",
+              "description": "TypeScript tooling for Tempo, used internally by mppx",
               "type": "github"
             }
           ]
@@ -76,13 +74,13 @@
             {
               "name": "mppx-rb",
               "url": "https://github.com/cjavdev/mppx-rb",
-              "description": "Ruby SDK",
+              "description": "Ruby SDK for MPP",
               "type": "github"
             },
             {
               "name": "mpp-go",
               "url": "https://github.com/deszhou/mpp-go",
-              "description": "Go SDK (community)",
+              "description": "Community Go SDK for MPP",
               "type": "github"
             },
             {
@@ -117,22 +115,12 @@
       "name": "Payment Methods",
       "subcategories": [
         {
-          "name": "Official (Tempo/Stripe)",
+          "name": "Official Tempo and Stripe",
           "projects": [
-            {
-              "name": "Tempo",
-              "description": "TIP-20 stablecoins on Tempo L1. Built into `mppx`",
-              "type": "external"
-            },
-            {
-              "name": "Stripe",
-              "description": "Credit/debit cards via Shared Payment Tokens. Built into `mppx`",
-              "type": "external"
-            },
             {
               "name": "mpp-card",
               "url": "https://www.npmjs.com/package/mpp-card",
-              "description": "Fiat card payments",
+              "description": "Fiat card payments for MPP. Tempo stablecoins and Stripe card support are built into mppx",
               "type": "npm"
             }
           ]
@@ -143,31 +131,31 @@
             {
               "name": "@solana/mpp",
               "url": "https://github.com/solana-foundation/mpp-sdk",
-              "description": "Official Solana Foundation SDK",
+              "description": "Official Solana Foundation SDK for MPP",
               "type": "github"
             },
             {
               "name": "@dexterai/mpp",
               "url": "https://github.com/Dexter-DAO/dexter-mpp",
-              "description": "Managed settlement (no blockchain infra needed)",
+              "description": "Managed settlement with no Blockchain infrastructure needed",
               "type": "github"
             },
             {
               "name": "mpp-solana",
               "url": "https://github.com/starc007/mpp-solana",
-              "description": "SPL token support",
+              "description": "SPL token support for MPP on Solana",
               "type": "github"
             },
             {
               "name": "mppx-solana",
               "url": "https://github.com/nitishxyz/mppx-solana",
-              "description": "mppx plugin for Solana",
+              "description": "Mppx plugin for Solana",
               "type": "github"
             },
             {
               "name": "mpp-spl",
               "url": "https://github.com/nullxnothing/mpp-spl",
-              "description": "SPL token + pump.fun payment layer. Token registry, Jupiter/bonding curve pricing, charge config resolver",
+              "description": "SPL token and pump.fun payment layer with token registry and Jupiter pricing",
               "type": "github"
             }
           ]
@@ -178,19 +166,19 @@
             {
               "name": "@buildonspark/lightning-mpp-sdk",
               "url": "https://github.com/buildonspark/lightning-mpp-sdk",
-              "description": "Lightning via Spark",
+              "description": "Lightning payments via Spark",
               "type": "github"
             },
             {
               "name": "@ambosstech/lightning-mpp-sdk",
               "url": "https://github.com/AmbossTech/lightning-mpp-sdk",
-              "description": "Lightning with LND + NWC adapters",
+              "description": "Lightning with LND and NWC adapters",
               "type": "github"
             },
             {
               "name": "@axobot/mppx",
               "url": "https://github.com/zbdpay/axobot-mppx",
-              "description": "Lightning-native with pluggable adapters",
+              "description": "Lightning-native MPP with pluggable adapters",
               "type": "github"
             }
           ]
@@ -207,97 +195,97 @@
             {
               "name": "stellar-mpp-sdk",
               "url": "https://github.com/stellar-experimental/stellar-mpp-sdk",
-              "description": "Stellar",
+              "description": "Stellar payment method for MPP",
               "type": "github"
             },
             {
               "name": "xrpl-mpp-sdk",
               "url": "https://github.com/krkmu/xrpl-mpp-sdk",
-              "description": "XRP Ledger",
+              "description": "XRP Ledger payment method for MPP",
               "type": "github"
             },
             {
               "name": "mpp-abstract",
               "url": "https://github.com/Abstract-Foundation/mpp-abstract",
-              "description": "Abstract (custom intents + escrow)",
+              "description": "Abstract chain with custom intents and escrow",
               "type": "github"
             },
             {
               "name": "mpp-movement",
               "url": "https://github.com/MoveIndustries/mpp-movement",
-              "description": "Movement Network",
+              "description": "Movement Network payment method",
               "type": "github"
             },
             {
               "name": "mpp-ton",
               "url": "https://github.com/TesseraeVentures/mpp-ton",
-              "description": "TON",
+              "description": "TON payment method for MPP",
               "type": "github"
             },
             {
               "name": "algorand-mpp-sdk",
               "url": "https://github.com/GoPlausible/algorand-mpp-sdk",
-              "description": "Algorand",
+              "description": "Algorand payment method for MPP",
               "type": "github"
             },
             {
               "name": "mpp-avalanche",
               "url": "https://github.com/ashucoder9/mpp-avalanche",
-              "description": "Avalanche (streaming payment channels)",
+              "description": "Avalanche with streaming payment channels",
               "type": "github"
             },
             {
               "name": "mppx-multiversx",
               "url": "https://github.com/sasurobert/mppx-multiversx",
-              "description": "MultiversX",
+              "description": "MultiversX payment method for MPP",
               "type": "github"
             },
             {
               "name": "mega-mpp-sdk",
               "url": "https://github.com/ifavo/mega-mpp-sdk",
-              "description": "MegaETH",
+              "description": "MegaETH payment method for MPP",
               "type": "github"
             },
             {
               "name": "skalenetwork/mpp-sdk",
               "url": "https://github.com/skalenetwork/mpp-sdk",
-              "description": "SKALE",
+              "description": "SKALE payment method for MPP",
               "type": "github"
             },
             {
               "name": "zimppy",
               "url": "https://github.com/betterclever/zimppy",
-              "description": "Zcash (private payments for AI agents)",
+              "description": "Zcash private payments for AI agents",
               "type": "github"
             },
             {
               "name": "@0xsquid/mpp",
               "url": "https://www.npmjs.com/package/@0xsquid/mpp",
-              "description": "Cross-chain via Squid Router",
+              "description": "Cross-chain payments via Squid Router",
               "type": "npm"
             },
             {
               "name": "mppx-stableyard",
               "url": "https://github.com/stableyardfi/mppx-stableyard",
-              "description": "Any chain in, any chain out, fiat settlement",
+              "description": "Any chain in, any chain out, with fiat settlement",
               "type": "github"
             },
             {
               "name": "@monad-crypto/mpp",
               "url": "https://github.com/monad-crypto/mpp",
-              "description": "Monad",
+              "description": "Monad payment method for MPP",
               "type": "github"
             },
             {
               "name": "@caypo/mpp-canton",
               "url": "https://www.npmjs.com/package/@caypo/mpp-canton",
-              "description": "Canton Network (USDCx)",
+              "description": "Canton Network USDCx payments",
               "type": "npm"
             },
             {
               "name": "xrpl-mpp-stack",
               "url": "https://github.com/lgcarrier/xrpl-mpp-stack",
-              "description": "XRP Ledger (Python, charge + session)",
+              "description": "XRP Ledger Python implementation with charge and session support",
               "type": "github"
             },
             {
@@ -307,34 +295,16 @@
               "type": "npm"
             },
             {
-              "name": "Alchemy",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains",
-              "type": "external"
+              "name": "@solobank/mpp-solana",
+              "url": "https://www.npmjs.com/package/@solobank/mpp-solana",
+              "description": "Solana USDC payment method for MPP",
+              "type": "npm"
             },
             {
-              "name": "Allium",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "System of record for onchain finance. Real-time blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer",
-              "type": "external"
-            },
-            {
-              "name": "Codex",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL",
-              "type": "external"
-            },
-            {
-              "name": "QuickNode",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Quicknode Core Node API for 80+ blockchains and 140+ networks",
-              "type": "external"
-            },
-            {
-              "name": "Tempo RPC",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Tempo blockchain JSON-RPC access (mainnet and testnet)",
-              "type": "external"
+              "name": "@paytoll/sdk",
+              "url": "https://github.com/paytoll/sdk",
+              "description": "Developer toolkit for accepting machine payments on Solana via MPP",
+              "type": "github"
             }
           ]
         }
@@ -347,46 +317,15 @@
           "name": "General",
           "projects": [
             {
-              "name": "Hono",
-              "description": "`import { Mppx } from 'mppx/hono'`",
-              "type": "external"
-            },
-            {
-              "name": "Express",
-              "description": "`import { Mppx } from 'mppx/express'`",
-              "type": "external"
-            },
-            {
-              "name": "Next.js",
-              "description": "`import { Mppx } from 'mppx/next'`",
-              "type": "external"
-            },
-            {
-              "name": "Elysia",
-              "description": "`import { Mppx } from 'mppx/elysia'`",
-              "type": "external"
-            },
-            {
-              "name": "Bun.serve",
-              "description": "/ **Deno.serve** - Framework-agnostic `mppx/server`",
-              "type": "external"
-            },
-            {
-              "name": "fastapi-mpp",
-              "url": "https://github.com/SylvainCostes/fastapi-mpp",
-              "description": "FastAPI (Python)",
-              "type": "github"
-            },
-            {
               "name": "@agentcash/router",
               "url": "https://www.npmjs.com/package/@agentcash/router",
-              "description": "Next.js App Router with MPP + x402 + API key auth",
+              "description": "Next.js App Router with MPP, x402, and API key auth",
               "type": "npm"
             },
             {
               "name": "mpp-aws",
               "url": "https://github.com/i-norden/mpp-aws",
-              "description": "AWS infrastructure integration",
+              "description": "AWS infrastructure integration for MPP",
               "type": "github"
             }
           ]
@@ -394,17 +333,11 @@
       ]
     },
     {
-      "name": "Infrastructure & Proxies",
+      "name": "Infrastructure and Proxies",
       "subcategories": [
         {
           "name": "General",
           "projects": [
-            {
-              "name": "mppx proxy",
-              "url": "https://github.com/wevm/mppx",
-              "description": "Built into mppx. Wrap any API with MPP payment gating (zero code changes)",
-              "type": "github"
-            },
             {
               "name": "mppx-proxy",
               "url": "https://github.com/starc007/mppx-proxy",
@@ -414,13 +347,13 @@
             {
               "name": "mpp-proxy-cf",
               "url": "https://github.com/tempoxyz/mpp-proxy-cf",
-              "description": "Cloudflare Workers MPP proxy (official)",
+              "description": "Cloudflare Workers MPP proxy from the Tempo team",
               "type": "github"
             },
             {
               "name": "openvps",
               "url": "https://github.com/kartojal/openvps",
-              "description": "MPP-powered VPS hosting -- AI agents pay for compute",
+              "description": "MPP-powered VPS hosting where AI agents pay for compute",
               "type": "github"
             },
             {
@@ -432,7 +365,7 @@
             {
               "name": "mppscan.com",
               "url": "https://mppscan.com",
-              "description": "Transaction explorer and service discovery",
+              "description": "Transaction explorer and service discovery for MPP",
               "type": "external"
             },
             {
@@ -444,43 +377,13 @@
             {
               "name": "tollbooth",
               "url": "https://github.com/abhay/tollbooth",
-              "description": "Solana payment gateway with MPP, gasless fee relayer, axum middleware",
+              "description": "Solana payment gateway with MPP, gasless fee relayer, and axum middleware",
               "type": "github"
-            },
-            {
-              "name": "Object Storage",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "S3/R2-compatible object storage with dynamic per-size pricing",
-              "type": "external"
-            },
-            {
-              "name": "StableUpload",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL",
-              "type": "external"
             },
             {
               "name": "Code Storage",
               "url": "https://code.storage",
-              "description": "Paid Git repository creation — create repos and get authenticated clone URLs",
-              "type": "external"
-            },
-            {
-              "name": "Judge0",
-              "url": "https://judge0.com",
-              "description": "Online code execution — run source code in 60+ programming languages with sandboxed isolation",
-              "type": "external"
-            },
-            {
-              "name": "Modal",
-              "url": "https://modal.com",
-              "description": "Serverless GPU compute for sandboxed code execution and AI/ML workloads",
-              "type": "external"
-            },
-            {
-              "name": "ScreenshotOne",
-              "url": "https://screenshotone.com",
-              "description": "Website screenshot API — capture any URL, HTML, or markdown as PNG, JPEG, WebP, or PDF. Full-page, element selection, dark mode, ad blocking, and more",
+              "description": "Paid Git repository creation with authenticated clone URLs",
               "type": "external"
             }
           ]
@@ -488,7 +391,7 @@
       ]
     },
     {
-      "name": "Agent Tools & CLIs",
+      "name": "Agent Tools and CLIs",
       "subcategories": [
         {
           "name": "General",
@@ -496,7 +399,7 @@
             {
               "name": "incur",
               "url": "https://github.com/wevm/incur",
-              "description": "CLI framework for agents and humans (by wevm)",
+              "description": "CLI framework for agents and humans by wevm",
               "type": "github"
             },
             {
@@ -508,13 +411,13 @@
             {
               "name": "agent-skills",
               "url": "https://github.com/tempoxyz/agent-skills",
-              "description": "Official Tempo agent skill pack (`npx skills add tempoxyz/agent-skills`)",
+              "description": "Official Tempo agent skill pack",
               "type": "github"
             },
             {
               "name": "wallet",
               "url": "https://github.com/tempoxyz/wallet",
-              "description": "CLI wallet + HTTP client with built-in MPP support",
+              "description": "CLI wallet and HTTP client with built-in MPP support",
               "type": "github"
             },
             {
@@ -526,7 +429,7 @@
             {
               "name": "@heyamiko/amiko-cli",
               "url": "https://www.npmjs.com/package/@heyamiko/amiko-cli",
-              "description": "CLI for Amiko AI Agent Marketplace",
+              "description": "CLI for the Amiko AI Agent Marketplace",
               "type": "npm"
             },
             {
@@ -538,13 +441,13 @@
             {
               "name": "MPP-Inspector",
               "url": "https://github.com/amgb20/MPP-Inspector",
-              "description": "CLI + web dashboard for debugging MPP flows. \"Postman for MPP.\"",
+              "description": "CLI and web dashboard for debugging MPP flows",
               "type": "github"
             },
             {
               "name": "mcp-protocol-tester",
               "url": "https://github.com/whiteknightonhorse/mcp-protocol-tester",
-              "description": "Universal test suite for MCP servers with dual-rail payment testing (x402 + MPP)",
+              "description": "Universal test suite for MCP servers with dual-rail payment testing",
               "type": "github"
             },
             {
@@ -556,46 +459,27 @@
             {
               "name": "x402-proxy",
               "url": "https://github.com/cascade-protocol/x402-proxy",
-              "description": "`curl` for x402 and MPP paid APIs. Auto-pays HTTP 402 responses on Base, Solana, and Tempo. MCP stdio proxy for AI agents, wallet management, pay-per-token streaming via MPP sessions. . ([npm](https://www.npmjs.com/package/x402-proxy))",
-              "type": "github",
-              "package": "npx x402-proxy"
+              "description": "Auto-pays HTTP 402 responses on Base, Solana, and Tempo. Includes MCP stdio proxy for AI agents and pay-per-token streaming via MPP sessions",
+              "type": "github"
             },
             {
-              "name": "Parallel",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Web search, page extraction, and multi-hop web research",
-              "type": "external"
+              "name": "knox",
+              "url": "https://github.com/stephancill/knox",
+              "description": "Moddable payments CLI for x402 and MPP",
+              "type": "github"
             },
             {
-              "name": "Brave Search",
-              "url": "https://brave.com/search",
-              "description": "Independent web search — web, news, images, videos, AI answers, and LLM context. Privacy-first search from a large independent index",
-              "type": "external"
-            },
-            {
-              "name": "Exa",
-              "url": "https://exa.ai",
-              "description": "AI-powered web search, content retrieval, and answers",
-              "type": "external"
-            },
-            {
-              "name": "SerpApi",
-              "url": "https://serpapi.com",
-              "description": "Google Flights search — real-time prices, schedules, and booking options",
-              "type": "external"
-            },
-            {
-              "name": "Tavily",
-              "url": "https://tavily.com",
-              "description": "AI-optimized web search, content extraction, site mapping, and crawling API",
-              "type": "external"
+              "name": "@raycashxyz/mpp-pay",
+              "url": "https://github.com/raycashxyz/mpp-pay",
+              "description": "CLI for making paid API requests via MPP",
+              "type": "github"
             }
           ]
         }
       ]
     },
     {
-      "name": "Middleware & Extensions",
+      "name": "Middleware and Extensions",
       "subcategories": [
         {
           "name": "General",
@@ -609,19 +493,19 @@
             {
               "name": "mppx-token-gate",
               "url": "https://github.com/douglasborthwick-crypto/mppx-token-gate",
-              "description": "Token-gate routes via signed wallet attestations (32 chains)",
+              "description": "Token-gate routes via signed wallet attestations across 32 chains",
               "type": "github"
             },
             {
               "name": "agenttax-mppx",
               "url": "https://github.com/AgentTax/agenttax-mppx",
-              "description": "Tax middleware (sales tax + capital gains) for AI agent transactions",
+              "description": "Tax middleware for sales tax and capital gains on AI agent transactions",
               "type": "github"
             },
             {
               "name": "mpp-integration",
               "url": "https://github.com/observer-protocol/mpp-integration",
-              "description": "Trust/reputation layer for MPP sellers",
+              "description": "Trust and reputation layer for MPP sellers",
               "type": "github"
             },
             {
@@ -633,7 +517,7 @@
             {
               "name": "costillery",
               "url": "https://github.com/wytcab/costillery",
-              "description": "Receipt intelligence for AI agents. Auto-captures MPP and x402 receipts",
+              "description": "Receipt intelligence for AI agents, auto-capturing MPP and x402 receipts",
               "type": "github"
             },
             {
@@ -645,7 +529,7 @@
             {
               "name": "@clearagent/mpp",
               "url": "https://www.npmjs.com/package/@clearagent/mpp",
-              "description": "KYA (Know Your Agent) compliance screening for MPP",
+              "description": "Know Your Agent compliance screening for MPP",
               "type": "npm"
             },
             {
@@ -657,157 +541,79 @@
             {
               "name": "secure-exec",
               "url": "https://github.com/achilliesbot/secure-exec",
-              "description": "Sandboxed tool execution oracle with IAM-gated dry-run. x402/MPP payment gate",
+              "description": "Sandboxed tool execution oracle with IAM-gated dry-run and x402/MPP payment gate",
               "type": "github"
             },
             {
               "name": "mpay",
               "url": "https://www.npmjs.com/package/mpay",
-              "description": "TypeScript SDK for the [**Machine Payments Protocol**](https://machinepayments.dev)",
+              "description": "TypeScript SDK for the Machine Payments Protocol",
               "type": "npm"
-            },
-            {
-              "name": "mppfinance",
-              "url": "git+https://github.com/mppfinance/mppfinance-sdk.git",
-              "description": "Virtual Visa cards for AI agents — powered by Machine Payments Protocol",
-              "type": "github"
-            },
-            {
-              "name": "@stellar/mpp",
-              "url": "git+https://github.com/stellar/stellar-mpp-sdk.git",
-              "description": "Stellar blockchain payment method for the Machine Payments Protocol (MPP)",
-              "type": "github"
-            },
-            {
-              "name": "@atxp/mpp",
-              "url": "git+https://github.com/atxp-dev/sdk.git",
-              "description": "ATXP MPP (Machine Payments Protocol) support",
-              "type": "github"
-            },
-            {
-              "name": "@moldy/mega-mpp-sdk",
-              "url": "git+https://github.com/ifavo/mega-mpp-sdk.git",
-              "description": "MegaETH payment method for the Machine Payments Protocol",
-              "type": "github"
-            },
-            {
-              "name": "@raycashxyz/mpp-pay",
-              "url": "git+https://github.com/raycashxyz/mpp-pay.git",
-              "description": "CLI for making paid API requests via the Machine Payments Protocol",
-              "type": "github"
-            },
-            {
-              "name": "@grantex/mpp",
-              "url": "git+https://github.com/mishrasanjeev/grantex.git",
-              "description": "Grantex agent identity and delegation for MPP (Machine Payments Protocol)",
-              "type": "github"
-            },
-            {
-              "name": "@paytoll/sdk",
-              "url": "git+https://github.com/paytoll/sdk.git",
-              "description": "Developer toolkit for accepting machine payments on Solana via the Machine Payments Protocol (MPP)",
-              "type": "github"
             },
             {
               "name": "clawmpp",
               "url": "https://www.npmjs.com/package/clawmpp",
-              "description": "Machine Payments Protocol integration for OpenClaw — one wallet, every AI service",
-              "type": "npm"
-            },
-            {
-              "name": "@solobank/mpp-solana",
-              "url": "https://www.npmjs.com/package/@solobank/mpp-solana",
-              "description": "Solana USDC payment method for the Machine Payments Protocol (MPP)",
+              "description": "MPP integration for OpenClaw providing one wallet for every AI service",
               "type": "npm"
             },
             {
               "name": "x402",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
-              "type": "github"
-            },
-            {
-              "name": "@x402/evm",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol EVM Implementation",
-              "type": "github"
-            },
-            {
-              "name": "@x402/extensions",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol Extensions",
-              "type": "github"
-            },
-            {
-              "name": "@x402/svm",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol SVM Implementation",
-              "type": "github"
-            },
-            {
-              "name": "@x402/core",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
-              "type": "github"
-            },
-            {
-              "name": "@x402/fetch",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol Fetch Extension",
-              "type": "github"
-            },
-            {
-              "name": "@coinbase/x402",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
-              "type": "github"
-            },
-            {
-              "name": "x402-fetch",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
+              "url": "https://github.com/coinbase/x402",
+              "description": "Coinbase x402 payment protocol with EVM, SVM, and fetch implementations",
               "type": "github"
             },
             {
               "name": "twitsh",
-              "url": "git+https://github.com/etherlect/twitsh.git",
+              "url": "https://github.com/etherlect/twitsh",
               "description": "X/Twitter data CLI with x402 micropayment handling",
               "type": "github"
             },
             {
               "name": "@b3dotfun/anyspend-x402",
-              "url": "git+https://github.com/b3-fun/anyspend-x402.git",
-              "description": "AnySpend x402 Payment Protocol - Extended implementation with multi-chain support",
-              "type": "github"
-            },
-            {
-              "name": "x402-axios",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
+              "url": "https://github.com/b3-fun/anyspend-x402",
+              "description": "AnySpend x402 implementation with multi-chain support",
               "type": "github"
             },
             {
               "name": "@relai-fi/x402",
-              "url": "git+https://github.com/web3luka/relai-sdk.git",
-              "description": "Unified x402 payment SDK for Solana, Base, Avalanche, SKALE Base, SKALE BITE, Polygon, and Ethereum. Automatic 402 handling with zero gas fees",
-              "type": "github"
-            },
-            {
-              "name": "@x402/express",
-              "url": "git+https://github.com/coinbase/x402.git",
-              "description": "x402 Payment Protocol",
+              "url": "https://github.com/web3luka/relai-sdk",
+              "description": "Unified x402 payment SDK for Solana, Base, Avalanche, SKALE, Polygon, and Ethereum",
               "type": "github"
             },
             {
               "name": "x402-stacks",
-              "url": "git+https://github.com/tony1908/x402Stacks.git",
-              "description": "TypeScript library for implementing x402 payment protocol on Stacks blockchain",
+              "url": "https://github.com/tony1908/x402Stacks",
+              "description": "x402 payment protocol on Stacks Blockchain",
               "type": "github"
             },
             {
               "name": "@b3dotfun/anyspend-x402-fetch",
-              "url": "git+https://github.com/b3-fun/anyspend-x402.git",
-              "description": "AnySpend x402 Fetch client - Extended x402 payment protocol integration for native fetch API with multi-token support",
+              "url": "https://github.com/b3-fun/anyspend-x402-fetch",
+              "description": "AnySpend x402 fetch client with multi-token support",
+              "type": "github"
+            },
+            {
+              "name": "mppfinance-sdk",
+              "url": "https://github.com/mppfinance/mppfinance-sdk",
+              "description": "Virtual Visa cards for AI agents powered by MPP",
+              "type": "github"
+            },
+            {
+              "name": "@atxp/mpp",
+              "url": "https://github.com/atxp-dev/sdk",
+              "description": "ATXP MPP support for agent identity and delegation",
+              "type": "github"
+            },
+            {
+              "name": "@grantex/mpp",
+              "url": "https://github.com/mishrasanjeev/grantex",
+              "description": "Grantex agent identity and delegation for MPP",
+              "type": "github"
+            },
+            {
+              "name": "@stellar/mpp",
+              "url": "https://github.com/stellar/stellar-mpp-sdk",
+              "description": "Stellar Blockchain payment method for MPP",
               "type": "github"
             }
           ]
@@ -818,37 +624,12 @@
       "name": "Services",
       "subcategories": [
         {
-          "name": "First-Party (native MPP)",
+          "name": "First-Party",
           "projects": [
-            {
-              "name": "AgentMail",
-              "description": "Email for AI agents",
-              "type": "external"
-            },
-            {
-              "name": "Allium",
-              "description": "Blockchain data",
-              "type": "external"
-            },
-            {
-              "name": "Browserbase",
-              "description": "Headless browser API",
-              "type": "external"
-            },
-            {
-              "name": "Dune",
-              "description": "Crypto analytics",
-              "type": "external"
-            },
-            {
-              "name": "Parallel",
-              "description": "Agent-to-agent coordination",
-              "type": "external"
-            },
             {
               "name": "APIMesh",
               "url": "https://github.com/mbeato/conway",
-              "description": "27 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, seo-audit, email-verify, tech-stack, +21 more). Supports x402 + MPP",
+              "description": "27 pay-per-call APIs for AI agents including web-checker, SEO audit, email verification, and more. Supports x402 and MPP",
               "type": "github"
             },
             {
@@ -860,242 +641,370 @@
             {
               "name": "Dtelecom",
               "url": "https://github.com/dteIecom/Dtelecom",
-              "description": "Real-time voice, video & voice AI. Pay-per-use via x402/MPP",
+              "description": "Real-time voice, video, and voice AI with pay-per-use via x402/MPP",
               "type": "github"
             },
             {
               "name": "Surf",
               "url": "https://surf.cascade.fyi",
-              "description": "Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents. Dual-protocol (x402 + MPP) on Base, Solana, and Tempo. Unified MCP server at `/mcp`. ([GitHub](https://github.com/cascade-protocol/surf))",
+              "description": "Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents with dual-protocol support on Base, Solana, and Tempo",
+              "type": "external"
+            },
+            {
+              "name": "AgentMail",
+              "url": "https://agentmail.to",
+              "description": "Email inboxes for AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Browserbase",
+              "url": "https://browserbase.com",
+              "description": "Headless browser sessions, web search, and page fetching for AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Dune",
+              "url": "https://dune.com",
+              "description": "Query raw transaction data, decoded smart contract events, stablecoin flows, and protocol analytics",
+              "type": "external"
+            },
+            {
+              "name": "Judge0",
+              "url": "https://judge0.com",
+              "description": "Online code execution in 60+ programming languages with sandboxed isolation",
+              "type": "external"
+            },
+            {
+              "name": "Modal",
+              "url": "https://modal.com",
+              "description": "Serverless GPU compute for sandboxed code execution and AI/ML workloads",
+              "type": "external"
+            },
+            {
+              "name": "ScreenshotOne",
+              "url": "https://screenshotone.com",
+              "description": "Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF",
+              "type": "external"
+            },
+            {
+              "name": "Billboard",
+              "url": "https://x.com/MPPBillboard",
+              "description": "Post to @MPPBillboard on X with dynamic pricing that doubles per post",
+              "type": "external"
+            },
+            {
+              "name": "Clado",
+              "url": "https://clado.ai",
+              "description": "People search, LinkedIn enrichment, and deep research for lead generation",
               "type": "external"
             }
           ]
         },
         {
-          "name": "Proxied (via mpp.tempo.xyz)",
+          "name": "Proxied via Tempo",
           "projects": [
             {
-              "name": "Anthropic",
+              "name": "[Anthropic](https://anthropic.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "OpenAI",
+              "name": "[OpenAI](https://openai.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Google Gemini",
+              "name": "[Google Gemini](https://ai.google.dev)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Mistral AI",
+              "name": "[Mistral AI](https://mistral.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Groq",
+              "name": "[Groq](https://groq.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "DeepSeek",
+              "name": "[DeepSeek](https://deepseek.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Perplexity",
+              "name": "[Perplexity](https://perplexity.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "OpenRouter",
+              "name": "[OpenRouter](https://openrouter.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Replicate",
+              "name": "[Replicate](https://replicate.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "fal.ai",
+              "name": "[fal.ai](https://fal.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Modal",
+              "name": "[Stability AI](https://stability.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Stability AI",
+              "name": "[Suno](https://sunoapi.org)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Suno",
+              "name": "[Grok](https://x.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Exa",
+              "name": "[Exa](https://exa.ai)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Firecrawl",
+              "name": "[Firecrawl](https://firecrawl.dev)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Tavily",
+              "name": "[Tavily](https://tavily.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Brave Search",
+              "name": "[Brave Search](https://brave.com/search)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Wolfram|Alpha",
+              "name": "[Wolfram|Alpha](https://www.wolframalpha.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "SerpAPI",
+              "name": "[SerpApi](https://serpapi.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "DiffBot",
+              "name": "[Diffbot](https://www.diffbot.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "EDGAR",
+              "name": "[EDGAR](https://www.sec.gov/developer)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "CoinGecko",
+              "name": "[CoinGecko](https://www.coingecko.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Alpha Vantage",
+              "name": "[Alpha Vantage](https://www.alphavantage.co)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Judge0",
+              "name": "[Deepgram](https://deepgram.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Deepgram",
+              "name": "[DeepL](https://www.deepl.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "DeepL",
+              "name": "[Mapbox](https://www.mapbox.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Mapbox",
+              "name": "[Mathpix](https://mathpix.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Mathpix",
+              "name": "[IPinfo](https://ipinfo.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "IPinfo",
+              "name": "[Hunter](https://hunter.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Hunter",
+              "name": "[BuiltWith](https://builtwith.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "ScreenshotOne",
+              "name": "[Google Maps](https://developers.google.com/maps)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "BuiltWith",
+              "name": "[Apollo](https://www.apollo.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Apollo",
+              "name": "[RentCast](https://rentcast.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Billboard",
+              "name": "[SpyFu](https://spyfu.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "RentCast",
+              "name": "[Oxylabs](https://oxylabs.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "SpyFu",
+              "name": "[2Captcha](https://2captcha.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "OxyLabs",
+              "name": "[KicksDB](https://kicks.dev)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "2Captcha",
+              "name": "[AviationStack](https://aviationstack.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "AviationStack",
+              "name": "[FlightAPI](https://flightapi.io)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "FlightAPI",
+              "name": "[GoFlightLabs](https://goflightlabs.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "GoFlightLabs",
+              "name": "[OpenWeather](https://openweathermap.org)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "OpenWeather",
+              "name": "[StableTravel](https://stabletravel.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "PostalForm",
+              "name": "[Company Enrichment](https://www.abstractapi.com/api/company-enrichment)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "KicksDB",
+              "name": "[Email Reputation](https://www.abstractapi.com/api/email-reputation-api)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             },
             {
-              "name": "Abstract APIs (12+ services)",
+              "name": "[Exchange Rates](https://www.abstractapi.com/api/exchange-rate-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Holidays](https://www.abstractapi.com/api/holidays-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[IBAN Validation](https://www.abstractapi.com/api/iban-validation-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[IP Intelligence](https://www.abstractapi.com/api/ip-intelligence-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Phone Intelligence](https://www.abstractapi.com/api/phone-validation-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Timezone](https://www.abstractapi.com/api/time-date-timezone-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[VAT](https://www.abstractapi.com/api/vat-validation-rates-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Web Scraping](https://www.abstractapi.com/api/web-scraping-api)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[PostalForm](https://postalform.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StableEmail](https://stableemail.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StableEnrich](https://stableenrich.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StablePhone](https://stablephone.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StableSocial](https://stablesocial.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StableStudio](https://stablestudio.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[StableUpload](https://stableupload.com)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Object Storage](https://objectstorage.dev)",
+              "description": "Proxied service available via mpp.tempo.xyz",
+              "type": "proxied"
+            },
+            {
+              "name": "[Prospect Butcher](https://prospectbutcher.com)",
               "description": "Proxied service available via mpp.tempo.xyz",
               "type": "proxied"
             }
@@ -1118,13 +1027,13 @@
             {
               "name": "Ottie",
               "url": "https://github.com/jiayaoqijia/Ottie",
-              "description": "Self-evolving agent for Ethereum/crypto",
+              "description": "Self-evolving agent for Ethereum and crypto",
               "type": "github"
             },
             {
               "name": "mpp-agentkit",
               "url": "https://github.com/0xOsiris/mpp-agentkit",
-              "description": "World Agent Kit Library for MPP",
+              "description": "World Agent Kit library for MPP",
               "type": "github"
             },
             {
@@ -1136,19 +1045,19 @@
             {
               "name": "Caypo",
               "url": "https://github.com/anilkaracay/Caypo",
-              "description": "Agent finance on institutional rails (MPP + USDCx + MCP)",
+              "description": "Agent finance on institutional rails with MPP, USDCx, and MCP",
               "type": "github"
             },
             {
               "name": "OpenAgentPay",
               "url": "https://github.com/alokemajumder/OpenAgentPay",
-              "description": "Open-source payment orchestration. 17 packages, 14 routing strategies, 8 payment connectors",
+              "description": "Open-source payment orchestration with 17 packages, 14 routing strategies, and 8 payment connectors",
               "type": "github"
             },
             {
               "name": "helix",
               "url": "https://github.com/adrianhihi/helix",
-              "description": "Self-healing infrastructure for AI agent payments. 90% auto-recovery",
+              "description": "Self-healing infrastructure for AI agent payments with 90% auto-recovery",
               "type": "github"
             },
             {
@@ -1160,13 +1069,13 @@
             {
               "name": "agentmart",
               "url": "https://github.com/teckedd-code2save/agentmart",
-              "description": "Autonomous agent-to-agent economy. Agents hire agents",
+              "description": "Autonomous agent-to-agent economy where agents hire agents",
               "type": "github"
             },
             {
               "name": "clawdmarket",
               "url": "https://github.com/trillskillz/clawdmarket",
-              "description": "Agent-to-agent marketplace. No humans required",
+              "description": "Agent-to-agent marketplace with no human intervention required",
               "type": "github"
             },
             {
@@ -1179,6 +1088,30 @@
               "name": "universal-pay",
               "url": "https://github.com/Bobbaybuilding/universal-pay",
               "description": "Universal 402 payment skill via Across crosschain bridging",
+              "type": "github"
+            },
+            {
+              "name": "a2a-mpp-sdk",
+              "url": "https://github.com/dahlinomine/a2a-mpp-sdk",
+              "description": "TypeScript SDK for automated agent-to-agent commerce via MPP",
+              "type": "github"
+            },
+            {
+              "name": "mpp-settlement-engine",
+              "url": "https://github.com/dahlinomine/mpp-settlement-engine",
+              "description": "Lightweight sub-cent agent-to-agent settlement engine for MPP",
+              "type": "github"
+            },
+            {
+              "name": "mpp-core-contracts",
+              "url": "https://github.com/dahlinomine/mpp-core-contracts",
+              "description": "Solidity contracts for autonomous agent-to-agent settlement via MPP",
+              "type": "github"
+            },
+            {
+              "name": "mpp-wallet-js",
+              "url": "https://github.com/dahlinomine/mpp-wallet-js",
+              "description": "Lightweight TypeScript SDK for MPP in autonomous agent wallets",
               "type": "github"
             }
           ]
@@ -1201,7 +1134,7 @@
             {
               "name": "shopgraph",
               "url": "https://github.com/laundromatic/shopgraph",
-              "description": "Product data enrichment MCP server (Stripe MPP)",
+              "description": "Product data enrichment MCP server with Stripe MPP",
               "type": "github"
             },
             {
@@ -1219,7 +1152,19 @@
             {
               "name": "delx-protocol",
               "url": "https://github.com/davidmosiah/delx-protocol",
-              "description": "Open-core MCP, A2A, REST, x402, and MPP-compatible protocol surfaces",
+              "description": "Open-core protocol surfaces for MCP, A2A, REST, x402, and MPP",
+              "type": "github"
+            },
+            {
+              "name": "gateway",
+              "url": "https://github.com/tomopay/gateway",
+              "description": "Payment gateway for MCP tools, charging agents per tool call with x402, MPP, and Stripe support",
+              "type": "github"
+            },
+            {
+              "name": "tomopay-gateway",
+              "url": "https://github.com/QuinnYates/tomopay-gateway",
+              "description": "Payment gateway for MCP servers to monetize tools with one wrapper",
               "type": "github"
             }
           ]
@@ -1230,7 +1175,7 @@
             {
               "name": "zk-proof-service",
               "url": "https://github.com/Himess/zk-proof-service",
-              "description": "ZK proof generation (pay per Groth16 proof via MPP)",
+              "description": "ZK proof generation with pay-per-Groth16-proof via MPP",
               "type": "github"
             },
             {
@@ -1254,19 +1199,19 @@
             {
               "name": "onlygate-tempo-mpp-wrapper",
               "url": "https://github.com/Kenny50/onlygate-tempo-mpp-wrapper",
-              "description": "Zero-trust HITL wrapper for MPP spending controls",
+              "description": "Zero-trust human-in-the-loop wrapper for MPP spending controls",
               "type": "github"
             },
             {
               "name": "trenchcoat-mpp",
               "url": "https://github.com/Keeeeeeeks/trenchcoat-mpp",
-              "description": "Tell your agent to order you UberEats, using MPP",
+              "description": "Agent-powered UberEats ordering using MPP",
               "type": "github"
             },
             {
               "name": "mpp-uniswap-agent",
               "url": "https://github.com/eek-uniswap/mpp-uniswap-agent",
-              "description": "Autonomous agent: ETH → Uniswap → USDC → MPP → LLM inference. No API keys",
+              "description": "Autonomous agent pipeline from ETH to Uniswap to USDC to MPP to LLM inference",
               "type": "github"
             },
             {
@@ -1284,403 +1229,73 @@
             {
               "name": "TheMinutes",
               "url": "https://github.com/xfajarr/TheMinutes",
-              "description": "Service router for AI agents on Tempo. Discover, compare, route to 100+ MPP services",
+              "description": "Service router for AI agents on Tempo, discovering and routing to 100+ MPP services",
               "type": "github"
             },
             {
               "name": "tempo-private-payments",
               "url": "https://github.com/zhivkoto/tempo-private-payments",
-              "description": "Confidential stablecoin transfers via stealth addresses + MPP",
+              "description": "Confidential stablecoin transfers via stealth addresses and MPP",
               "type": "github"
             },
             {
-              "name": "StableTravel",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware",
-              "type": "external"
+              "name": "tiktok-mpp-api",
+              "url": "https://github.com/mf336/tiktok-mpp-api",
+              "description": "TikTok scraper API powered by MPP",
+              "type": "github"
             },
             {
-              "name": "Stripe Climate",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Fund permanent carbon removal projects via Stripe Climate",
-              "type": "external"
+              "name": "mpp-webrtc",
+              "url": "https://github.com/mizanxali/mpp-webrtc",
+              "description": "AI agents that pay per-second to watch live video feeds over WebRTC",
+              "type": "github"
             },
             {
-              "name": "Browserbase",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Headless browser sessions, web search, and page fetching for AI agents",
-              "type": "external"
+              "name": "mpp-bazaar",
+              "url": "https://github.com/ethanmlam/mpp-bazaar",
+              "description": "Food truck ordering API with dynamic pricing powered by MPP",
+              "type": "github"
             },
             {
-              "name": "AgentMail",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Email inboxes for AI agents",
-              "type": "external"
+              "name": "PayRep",
+              "url": "https://github.com/NadirEcho/PayRep",
+              "description": "Merchant trust scores for AI agent payments via MPP and x402",
+              "type": "github"
             },
             {
-              "name": "Dune",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Query across raw transaction data, decoded smart contract events, stablecoin flows, RWA tracking, protocol analytics, DeFi positions, NFT activity, blockchain market research, and whatever is trending",
-              "type": "external"
+              "name": "flow-core",
+              "url": "https://github.com/achilliesbot/flow-core",
+              "description": "Unified IAM pre-execution gateway with x402/MPP payment gate",
+              "type": "github"
             },
             {
-              "name": "PostalForm",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Print and mail real letters and documents via AI agents",
-              "type": "external"
+              "name": "ows-react-native",
+              "url": "https://github.com/rkmonarch/ows-react-native",
+              "description": "React Native library for the Open Wallet Standard with MPP and x402 support on Solana",
+              "type": "github"
             },
             {
-              "name": "Prospect Butcher",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent",
-              "type": "external"
+              "name": "agent-commerce-protocol",
+              "url": "https://github.com/nicoroldan1/agent-commerce-protocol",
+              "description": "Open protocol for agent-native commerce covering discovery, trust, and catalog for the agentic web",
+              "type": "github"
             },
             {
-              "name": "StableEmail",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts",
-              "type": "external"
+              "name": "agent-payments-landscape",
+              "url": "https://github.com/goodmeta/agent-payments-landscape",
+              "description": "Living comparison of agent payment protocols including AP2, ACP, x402, MPP, and UCP",
+              "type": "github"
             },
             {
-              "name": "StableEnrich",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment",
-              "type": "external"
-            },
-            {
-              "name": "StablePhone",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request",
-              "type": "external"
-            },
-            {
-              "name": "StableSocial",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit",
-              "type": "external"
-            },
-            {
-              "name": "StableStudio",
-              "url": "https://www.mpppay.fun/ecosystem",
-              "description": "Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan",
-              "type": "external"
-            },
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com",
-              "description": "Chat completions, embeddings, image generation, and audio with model-tier pricing",
-              "type": "external"
-            },
-            {
-              "name": "Anthropic",
-              "url": "https://anthropic.com",
-              "description": "Claude chat completions (Sonnet, Opus, Haiku) via native and OpenAI-compatible APIs",
-              "type": "external"
-            },
-            {
-              "name": "OpenRouter",
-              "url": "https://openrouter.ai",
-              "description": "Unified API for 100+ LLMs with live per-model pricing",
-              "type": "external"
-            },
-            {
-              "name": "2Captcha",
-              "url": "https://2captcha.com",
-              "description": "CAPTCHA solving API — reCAPTCHA, Turnstile, hCaptcha, image captchas, and more",
-              "type": "external"
-            },
-            {
-              "name": "Alpha Vantage",
-              "url": "https://www.alphavantage.co",
-              "description": "Financial market data — stock prices, forex, crypto, commodities, economic indicators, technical analysis, and news sentiment",
-              "type": "external"
-            },
-            {
-              "name": "Apollo",
-              "url": "https://www.apollo.io",
-              "description": "People and company enrichment, lead search, and sales intelligence with 275M+ contacts",
-              "type": "external"
-            },
-            {
-              "name": "AviationStack",
-              "url": "https://aviationstack.com",
-              "description": "Real-time and historical flight tracking, airports, airlines, and schedules",
-              "type": "external"
-            },
-            {
-              "name": "Billboard",
-              "url": "https://x.com/MPPBillboard",
-              "description": "Post to @MPPBillboard on X. Price starts at $0.01 and doubles with every post. The ultimate AI agent billboard",
-              "type": "external"
-            },
-            {
-              "name": "BuiltWith",
-              "url": "https://builtwith.com",
-              "description": "Technology profiling for websites — detect tech stacks, find sites using specific technologies, discover domain relationships, trends, and competitive intelligence across 100M+ websites",
-              "type": "external"
-            },
-            {
-              "name": "Clado",
-              "url": "https://clado.ai",
-              "description": "People search, LinkedIn enrichment, and deep research for lead generation",
-              "type": "external"
-            },
-            {
-              "name": "CoinGecko",
-              "url": "https://www.coingecko.com",
-              "description": "Cryptocurrency market data — prices, charts, market cap, exchanges, trending coins, global stats, NFTs, derivatives, and on-chain data",
-              "type": "external"
-            },
-            {
-              "name": "Company Enrichment",
-              "url": "https://www.abstractapi.com/api/company-enrichment",
-              "description": "Enrich company data from a domain name",
-              "type": "external"
-            },
-            {
-              "name": "Deepgram",
-              "url": "https://deepgram.com",
-              "description": "Industry-leading speech AI — transcribe audio from URLs with Nova-3, generate natural speech with Aura-2 TTS, and analyze text for sentiment, topics, intents, and summaries",
-              "type": "external"
-            },
-            {
-              "name": "DeepL",
-              "url": "https://www.deepl.com",
-              "description": "Professional translation and text improvement — translate text between 30+ languages with industry-leading quality, or improve and rephrase text with DeepL Write",
-              "type": "external"
-            },
-            {
-              "name": "DeepSeek",
-              "url": "https://deepseek.com",
-              "description": "Frontier AI models — DeepSeek-V3 for fast chat and code, DeepSeek-R1 for deep chain-of-thought reasoning. OpenAI-compatible API format. Among the most capable and cost-efficient models available",
-              "type": "external"
-            },
-            {
-              "name": "Diffbot",
-              "url": "https://www.diffbot.com",
-              "description": "Web data extraction — articles, products, discussions, images, videos, and auto-detect",
-              "type": "external"
-            },
-            {
-              "name": "Diffbot KG",
-              "url": "https://www.diffbot.com",
-              "description": "Knowledge Graph — search 10B+ entities and enrich company/person records",
-              "type": "external"
-            },
-            {
-              "name": "Diffbot NL",
-              "url": "https://www.diffbot.com",
-              "description": "Natural language processing — NER, sentiment, facts, summarization",
-              "type": "external"
-            },
-            {
-              "name": "EDGAR (SEC)",
-              "url": "https://www.sec.gov/developer",
-              "description": "SEC EDGAR public financial data — company filing history, XBRL financial facts (income statements, balance sheets, cash flows), and full-text search across all public filings. No API key required",
-              "type": "external"
-            },
-            {
-              "name": "EDGAR Full-Text Search",
-              "url": "https://efts.sec.gov",
-              "description": "Full-text search across all SEC filings — 10-Ks, 10-Qs, 8-Ks, proxy statements, and more. Search by keyword, company name, form type, and date range",
-              "type": "external"
-            },
-            {
-              "name": "Email Reputation",
-              "url": "https://www.abstractapi.com/api/email-reputation-api",
-              "description": "Check the reputation and risk score of an email address",
-              "type": "external"
-            },
-            {
-              "name": "Exchange Rates",
-              "url": "https://www.abstractapi.com/api/exchange-rate-api",
-              "description": "Live, historical, and conversion exchange rates for 150+ currencies",
-              "type": "external"
-            },
-            {
-              "name": "fal.ai",
-              "url": "https://fal.ai",
-              "description": "Image, video, and audio generation with 600+ models (Flux, SD, Recraft, Grok)",
-              "type": "external"
-            },
-            {
-              "name": "Firecrawl",
-              "url": "https://firecrawl.dev",
-              "description": "Web scraping, crawling, and structured data extraction for LLMs",
-              "type": "external"
-            },
-            {
-              "name": "FlightAPI",
-              "url": "https://flightapi.io",
-              "description": "Real-time flight prices, tracking, and airport schedules from 700+ airlines",
-              "type": "external"
-            },
-            {
-              "name": "GoFlightLabs",
-              "url": "https://goflightlabs.com",
-              "description": "Real-time flight tracking, prices, schedules, and airline data",
-              "type": "external"
-            },
-            {
-              "name": "Google Gemini",
-              "url": "https://ai.google.dev",
-              "description": "Gemini text generation, Veo video, and Nano Banana image generation with model-tier pricing",
-              "type": "external"
-            },
-            {
-              "name": "Google Maps",
-              "url": "https://developers.google.com/maps",
-              "description": "Google Maps Platform — geocoding, directions, places, routes, tiles, weather, air quality, and more",
-              "type": "external"
-            },
-            {
-              "name": "Grok",
-              "url": "https://x.ai",
-              "description": "xAI models — chat, web/X search, code execution, image generation/editing, and text-to-speech",
-              "type": "external"
-            },
-            {
-              "name": "Groq",
-              "url": "https://groq.com",
-              "description": "Ultra-fast LLM inference — Llama 3.3, DeepSeek R1, Gemma 2, GPT-OSS, Qwen, Whisper, and PlayAI TTS. OpenAI-compatible API with industry-leading speed",
-              "type": "external"
-            },
-            {
-              "name": "Holidays",
-              "url": "https://www.abstractapi.com/api/holidays-api",
-              "description": "Public holiday data for 200+ countries",
-              "type": "external"
-            },
-            {
-              "name": "Hunter",
-              "url": "https://hunter.io",
-              "description": "Email finding, verification, and company enrichment for outreach and lead generation",
-              "type": "external"
-            },
-            {
-              "name": "IBAN Validation",
-              "url": "https://www.abstractapi.com/api/iban-validation-api",
-              "description": "Validate International Bank Account Numbers (IBANs)",
-              "type": "external"
-            },
-            {
-              "name": "IP Intelligence",
-              "url": "https://www.abstractapi.com/api/ip-intelligence-api",
-              "description": "Detect VPNs, proxies, bots, and Tor nodes by IP address",
-              "type": "external"
-            },
-            {
-              "name": "IPinfo",
-              "url": "https://ipinfo.io",
-              "description": "IP intelligence — geolocation, ASN, privacy detection, carrier data, and hosting identification",
-              "type": "external"
-            },
-            {
-              "name": "KicksDB",
-              "url": "https://kicks.dev",
-              "description": "Sneaker & streetwear market data — prices, sales history, and availability from StockX, GOAT, and more",
-              "type": "external"
-            },
-            {
-              "name": "Mapbox",
-              "url": "https://www.mapbox.com",
-              "description": "Location and mapping APIs — geocoding, directions, isochrones, matrix routing, map matching, static maps, and spatial queries",
-              "type": "external"
-            },
-            {
-              "name": "Mathpix",
-              "url": "https://mathpix.com",
-              "description": "OCR for math, science, and documents — extract LaTeX, MathML, and Mathpix Markdown from images and handwriting",
-              "type": "external"
-            },
-            {
-              "name": "Mistral AI",
-              "url": "https://mistral.ai",
-              "description": "Premier and open-source LLMs — Mistral Large, Medium, Small, Codestral, Magistral reasoning, Pixtral vision, text embeddings, and content moderation",
-              "type": "external"
-            },
-            {
-              "name": "OpenWeather",
-              "url": "https://openweathermap.org",
-              "description": "Global weather data — current conditions, 5-day forecasts, hourly forecasts, air quality index with pollutants, geocoding, and One Call 3.0 with full weather suite and government alerts",
-              "type": "external"
-            },
-            {
-              "name": "Oxylabs",
-              "url": "https://oxylabs.io",
-              "description": "Web scraping API with geo-targeting by country, state, and city. Fetch any public URL with JavaScript rendering support",
-              "type": "external"
-            },
-            {
-              "name": "Perplexity",
-              "url": "https://perplexity.ai",
-              "description": "AI-powered search — Sonar chat with real-time web grounding, web search, and embeddings",
-              "type": "external"
-            },
-            {
-              "name": "Phone Intelligence",
-              "url": "https://www.abstractapi.com/api/phone-validation-api",
-              "description": "Validate and get carrier info for phone numbers worldwide",
-              "type": "external"
-            },
-            {
-              "name": "RentCast",
-              "url": "https://rentcast.io",
-              "description": "US real estate intelligence — property records, AVM valuations, rent estimates, sale/rental listings, and market statistics",
-              "type": "external"
-            },
-            {
-              "name": "Replicate",
-              "url": "https://replicate.com",
-              "description": "Run thousands of open-source AI models via API — image generation, language models, speech recognition, video, and more. Pay only for what you use",
-              "type": "external"
-            },
-            {
-              "name": "SpyFu",
-              "url": "https://spyfu.com",
-              "description": "Competitor keyword research — SEO rankings, PPC ads, ad history, and domain analytics. 18+ years of historical data",
-              "type": "external"
-            },
-            {
-              "name": "Stability AI",
-              "url": "https://stability.ai",
-              "description": "Generative AI platform for images, 3D models, and audio — text-to-image, editing, upscaling, and more",
-              "type": "external"
-            },
-            {
-              "name": "Suno",
-              "url": "https://sunoapi.org",
-              "description": "AI music generation — create full songs, generate lyrics, and build custom music tracks with state-of-the-art AI models. Supports custom styles, vocals, and instrumental modes",
-              "type": "external"
-            },
-            {
-              "name": "Timezone",
-              "url": "https://www.abstractapi.com/api/time-date-timezone-api",
-              "description": "Current time and timezone conversion for any location",
-              "type": "external"
-            },
-            {
-              "name": "VAT",
-              "url": "https://www.abstractapi.com/api/vat-validation-rates-api",
-              "description": "VAT number validation, rate calculation, and category lookup for EU",
-              "type": "external"
-            },
-            {
-              "name": "Web Scraping",
-              "url": "https://www.abstractapi.com/api/web-scraping-api",
-              "description": "Scrape web pages with optional JavaScript rendering",
-              "type": "external"
-            },
-            {
-              "name": "Wolfram|Alpha",
-              "url": "https://www.wolframalpha.com",
-              "description": "Computational knowledge engine — math, science, geography, history, nutrition, finance, and more. Get answers as text, spoken audio, LLM-optimized data, or full structured results",
-              "type": "external"
+              "name": "tempo-hackathon",
+              "url": "https://github.com/kphed/tempo-hackathon",
+              "description": "Research-as-a-service over MPP with cited results for one cent per query",
+              "type": "github"
             }
           ]
         },
         {
-          "name": "Demos & Examples",
+          "name": "Demos and Examples",
           "projects": [
             {
               "name": "stellar-mpp-demo",
@@ -1697,7 +1312,7 @@
             {
               "name": "MPP_Visa-TAP_PoC",
               "url": "https://github.com/freedomfighter-007/MPP_Visa-TAP_PoC",
-              "description": "MPP + Visa TAP proof of concept",
+              "description": "MPP combined with Visa TAP proof of concept",
               "type": "github"
             },
             {
@@ -1715,13 +1330,13 @@
             {
               "name": "tempo-demos",
               "url": "https://github.com/kwattana/tempo-demos",
-              "description": "AI agents making autonomous payments — DoorDash, Shopify, GPU Marketplace demos",
+              "description": "AI agents making autonomous payments with DoorDash, Shopify, and GPU Marketplace demos",
               "type": "github"
             },
             {
               "name": "OPK-MPP-Tempo-Hackathon",
               "url": "https://github.com/zhangzhongnan928/OPK-MPP-Tempo-Hackathon",
-              "description": "OPK Pay Terminal + MPP. One rail for human and machine commerce",
+              "description": "OPK Pay Terminal combined with MPP for human and machine commerce",
               "type": "github"
             },
             {
@@ -1737,123 +1352,9 @@
               "type": "github"
             },
             {
-              "name": "awesome-mpp",
-              "url": "https://github.com/mbeato/awesome-mpp",
-              "description": "The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments",
-              "type": "github"
-            },
-            {
               "name": "mpp-sample",
               "url": "https://github.com/mashharuki/mpp-sample",
-              "description": "Machine Payments Protocolのサンプルコードです",
-              "type": "github"
-            },
-            {
-              "name": "tiktok-mpp-api",
-              "url": "https://github.com/mf336/tiktok-mpp-api",
-              "description": "TikTok scraper API powered by Machine Payments Protocol (MPP)",
-              "type": "github"
-            },
-            {
-              "name": "mpp-webrtc",
-              "url": "https://github.com/mizanxali/mpp-webrtc",
-              "description": "AI agents that pay per-second to watch live video feeds through machine payments protocol (MPP) over webRTC",
-              "type": "github"
-            },
-            {
-              "name": "mpp-sdk",
-              "url": "https://github.com/solana-foundation/mpp-sdk",
-              "description": "Solana payment method for the Machine Payments Protocol",
-              "type": "github"
-            },
-            {
-              "name": "mppfinance-sdk",
-              "url": "https://github.com/mppfinance/mppfinance-sdk",
-              "description": "Virtual Visa cards for AI agents — powered by Machine Payments Protocol",
-              "type": "github"
-            },
-            {
-              "name": "a2a-mpp-sdk",
-              "url": "https://github.com/dahlinomine/a2a-mpp-sdk",
-              "description": "TypeScript SDK for implementing the Machine Payment Protocol (MPP) for automated commerce between AI agents",
-              "type": "github"
-            },
-            {
-              "name": "mpp-settlement-engine",
-              "url": "https://github.com/dahlinomine/mpp-settlement-engine",
-              "description": "A lightweight implementation of the Machine Payment Protocol (MPP) for sub-cent agent-to-agent service settlements",
-              "type": "github"
-            },
-            {
-              "name": "mpp-core-contracts",
-              "url": "https://github.com/dahlinomine/mpp-core-contracts",
-              "description": "Solidity implementation of the Machine Payment Protocol for autonomous agent-to-agent settlement",
-              "type": "github"
-            },
-            {
-              "name": "mpp-wallet-js",
-              "url": "https://github.com/dahlinomine/mpp-wallet-js",
-              "description": "A lightweight TypeScript SDK for implementing the Machine Payment Protocol (MPP) in autonomous agent wallets",
-              "type": "github"
-            },
-            {
-              "name": "tempo-hackathon",
-              "url": "https://github.com/kphed/tempo-hackathon",
-              "description": "Dossier: Research-as-a-service over MPP. Ask a question, get cited research. One cent. Includes native MCP server support. Built in <2 hours for the Tempo.xyz hackathon",
-              "type": "github"
-            },
-            {
-              "name": "agent-payments-landscape",
-              "url": "https://github.com/goodmeta/agent-payments-landscape",
-              "description": "Living comparison of agent payment protocols: AP2, ACP, x402, MPP, UCP. Verified claims with primary sources",
-              "type": "github"
-            },
-            {
-              "name": "knox",
-              "url": "https://github.com/stephancill/knox",
-              "description": "A moddable payments CLI for x402 and MPP",
-              "type": "github"
-            },
-            {
-              "name": "gateway",
-              "url": "https://github.com/tomopay/gateway",
-              "description": "Payment gateway for MCP tools — charge agents per tool call (withPayments()). Supports x402, MPP, Stripe",
-              "type": "github"
-            },
-            {
-              "name": "tomopay-gateway",
-              "url": "https://github.com/QuinnYates/tomopay-gateway",
-              "description": "Payment gateway for MCP servers — monetize your tools with one wrapper. Supports x402, MPP, and Stripe",
-              "type": "github"
-            },
-            {
-              "name": "agent-commerce-protocol",
-              "url": "https://github.com/nicoroldan1/agent-commerce-protocol",
-              "description": "ACE (Agent Commerce Exchange) — Open protocol for agent-native commerce: discovery, trust, and catalog for the agentic web. Payment-agnostic (x402, MPP, Stripe)",
-              "type": "github"
-            },
-            {
-              "name": "ows-react-native",
-              "url": "https://github.com/rkmonarch/ows-react-native",
-              "description": "The first React Native library for the Open Wallet Standard (OWS) — policy-gated autonomous payments on Solana using USDC, with Stripe MPP / x402 HTTP 402 support",
-              "type": "github"
-            },
-            {
-              "name": "flow-core",
-              "url": "https://github.com/achilliesbot/flow-core",
-              "description": "Unified IAM pre-execution gateway. One call replaces MemGuard + NoLeak + EP + RiskOracle. x402/MPP payment gate, unified proof hash",
-              "type": "github"
-            },
-            {
-              "name": "mpp-bazaar",
-              "url": "https://github.com/ethanmlam/mpp-bazaar",
-              "description": "Food truck ordering API with dynamic pricing powered by the Machine Payments Protocol (MPP). The thing x402 can't do",
-              "type": "github"
-            },
-            {
-              "name": "PayRep",
-              "url": "https://github.com/NadirEcho/PayRep",
-              "description": "Merchant trust scores for AI agent payments — MPP + x402",
+              "description": "Sample code demonstrating the Machine Payments Protocol",
               "type": "github"
             }
           ]
@@ -1887,13 +1388,13 @@
             {
               "name": "tempo-std",
               "url": "https://github.com/tempoxyz/tempo-std",
-              "description": "Solidity contracts/libraries",
+              "description": "Solidity contracts and libraries for Tempo",
               "type": "github"
             },
             {
               "name": "ledger-app-tempo",
               "url": "https://github.com/tempoxyz/ledger-app-tempo",
-              "description": "Ledger hardware wallet plugin",
+              "description": "Ledger hardware wallet plugin for Tempo",
               "type": "github"
             },
             {
@@ -1921,11 +1422,11 @@
             {
               "name": "docs.tempo.xyz",
               "url": "https://docs.tempo.xyz",
-              "description": "Tempo + MPP developer docs",
+              "description": "Tempo and MPP developer docs",
               "type": "external"
             },
             {
-              "name": "stripe.com/blog/machine-payments-protocol",
+              "name": "Stripe MPP Announcement",
               "url": "https://stripe.com/blog/machine-payments-protocol",
               "description": "Stripe's MPP launch announcement",
               "type": "external"
@@ -1938,7 +1439,7 @@
             {
               "name": "The Machine Payments Protocol",
               "url": "https://tempo.xyz/blog/mainnet/",
-              "description": "Tempo mainnet launch + MPP introduction",
+              "description": "Tempo mainnet launch and MPP introduction",
               "type": "external"
             },
             {
