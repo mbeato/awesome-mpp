@@ -36,6 +36,7 @@
 
 - [mppx-rb](https://github.com/cjavdev/mppx-rb) - Ruby SDK for MPP.
 - [mpp-go](https://github.com/deszhou/mpp-go) - Community Go SDK for MPP.
+- [mppx](https://github.com/cp0x-org/mppx) - Community Go SDK for MPP.
 - [fastapi-mpp](https://github.com/SylvainCostes/fastapi-mpp) - FastAPI middleware for Python.
 - [ZenHive/mpp](https://github.com/ZenHive/mpp) - Elixir implementation of MPP.
 - [dotnet-sdk-mpp](https://github.com/evenuss/dotnet-sdk-mpp) - .NET SDK for MPP.
