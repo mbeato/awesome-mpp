@@ -170,6 +170,51 @@ Community:
 - [agent-verifier](https://github.com/goodmeta/agent-verifier) - Agent spending verification with budget caps and cross-agent tracking.
 - [secure-exec](https://github.com/achilliesbot/secure-exec) - Sandboxed tool execution oracle with IAM-gated dry-run. x402/MPP payment gate.
 
+- [@goplausible/algorand-mpp-sdk](git+https://github.com/GoPlausible/algorand-mpp-sdk.git) - Algorand payment method SDK for the MPP protocol.
+- [@stellar/mpp](git+https://github.com/stellar/stellar-mpp-sdk.git) - Stellar blockchain payment method for the Machine Payments Protocol (MPP).
+- [solana-mpp](git+ssh://git@github.com/sendaifun/solana-mpp.git) - Solana MPP SDK — SPL token payments over HTTP 402.
+- [@ambosstech/lightning-mpp-adapter-lnd](git+https://github.com/AmbossTech/lightning-mpp-sdk.git) - LND adapter (gRPC + REST) for the Lightning MPP SDK.
+- [@skalenetwork/mpp](git+https://github.com/skalenetwork/mpp-skale.git) - SKALE payment method for MPP (Metered Payment Protocol).
+- [@grantex/mpp](git+https://github.com/mishrasanjeev/grantex.git) - Grantex agent identity and delegation for MPP (Machine Payments Protocol).
+- [@ambosstech/lightning-mpp-adapter-nwc](git+https://github.com/AmbossTech/lightning-mpp-sdk.git) - Nostr Wallet Connect (NIP-47) adapter for the Lightning MPP SDK.
+- [@ambosstech/lightning-mpp-adapter-mock](git+https://github.com/AmbossTech/lightning-mpp-sdk.git) - Mock adapter for testing the Lightning MPP SDK without a real node.
+- [@atxp/mpp](git+https://github.com/atxp-dev/sdk.git) - ATXP MPP (Machine Payments Protocol) support.
+- [@bizjournals/mpp](https://www.npmjs.com/package/@bizjournals/mpp) - The front end connection interface to MPP Global.
+- [@stablecoin.xyz/radius-mpp](https://www.npmjs.com/package/@stablecoin.xyz/radius-mpp) - MPP custom payment method for Radius blockchain — ERC-20 token transfers.
+- [drain-mcp](git+https://github.com/kimbo128/DRAIN.git) - MCP server for the Handshake58 AI marketplace. DRAIN payment channels, MPP per-request payments, quality feedback. Agents discover providers, pay, and report.
+- [across-pay-mpp](https://www.npmjs.com/package/across-pay-mpp) - Crosschain MPP payments via Across Protocol. Bridge from any chain, pay on Tempo.
+- [mpay](https://www.npmjs.com/package/mpay) - TypeScript SDK for the [**Machine Payments Protocol**](https://machinepayments.dev).
+- [mppfinance](git+https://github.com/mppfinance/mppfinance-sdk.git) - Virtual Visa cards for AI agents — powered by Machine Payments Protocol.
+- [@paytoll/sdk](git+https://github.com/paytoll/sdk.git) - Developer toolkit for accepting machine payments on Solana via the Machine Payments Protocol (MPP).
+- [@moldy/mega-mpp-sdk](git+https://github.com/ifavo/mega-mpp-sdk.git) - MegaETH payment method for the Machine Payments Protocol.
+- [@raycashxyz/mpp-pay](git+https://github.com/raycashxyz/mpp-pay.git) - CLI for making paid API requests via the Machine Payments Protocol.
+- [zimppy-ts](git+https://github.com/betterclever/zimppy.git) - TypeScript SDK for Zimppy — private machine payments on Zcash.
+- [clawmpp](https://www.npmjs.com/package/clawmpp) - Machine Payments Protocol integration for OpenClaw — one wallet, every AI service.
+- [@rackspay/wallet-mcp](https://www.npmjs.com/package/@rackspay/wallet-mcp) - RACKS Wallet MCP — crypto trading, betting, and MPP payments for AI agents. Trade perps on Hyperliquid, bet on Polymarket, pay APIs via Tempo/MPP, and check on-chain balances via Claude Desktop or any.
+- [@formkit/tempo](git+https://github.com/formkit/tempo.git) - The easiest way to work with dates in JavaScript and TypeScript.
+- [@bitgo-beta/sdk-coin-tempo](git+https://github.com/BitGo/BitGoJS.git) - BitGo SDK coin library for Tempo.
+- [twitsh](git+https://github.com/etherlect/twitsh.git) - X/Twitter data CLI with x402 micropayment handling.
+- [tempo.ts](git+https://github.com/tempoxyz/tempo-ts.git) - <br> <br>.
+- [tempo-devtools](https://www.npmjs.com/package/tempo-devtools) - Package to be installed to use your project with [Tempo](https://tempolabs.ai).
+- [nestjs-otel](git+https://github.com/pragmaticivan/nestjs-otel.git) - NestJS OpenTelemetry Library.
+- [@perses-dev/tempo-plugin](git+https://github.com/perses/plugins.git) - ### How to install.
+- [@grafana/lezer-traceql](git+https://github.com/grafana/lezer-traceql.git) - Grafana Tempo TraceQL lezer grammar.
+- [@valeo-vup/pay](git+https://github.com/valeo-cash/vup.git) - VUP — Valeo Universal Pay. One SDK, every payment protocol. x402, MPP, and beyond.
+- [@cipherpay/x402](git+https://github.com/atmospherelabs-dev/cipherpay-x402.git) - Accept private Zcash payments on any API via x402, MPP, and session protocols. CipherPay is the Zcash facilitator.
+- [@asgcard/agentcard](git+https://github.com/ASGCompute/asgcard-public.git) - AgentCard: Give your AI Agents autonomous virtual credit cards (Mastercard) via Stripe Issuing to pay for APIs, SaaS, and cloud computing. x402 & MPP compatible.
+- [@asgcard/agent-wallet](git+https://github.com/ASGCompute/asgcard-public.git) - Agent Wallet: Give your AI Agents autonomous virtual credit cards (Mastercard) via Stripe Issuing to pay for APIs and SaaS. x402 & MPP compatible.
+- [@asgcard/agent-cash](git+https://github.com/ASGCompute/asgcard-public.git) - Agent Cash: Give your AI Agents autonomous virtual credit cards (Mastercard) via Stripe Issuing to pay for APIs and SaaS. x402 & MPP compatible.
+- [ai-credit-card](git+https://github.com/ASGCompute/asgcard-public.git) - AI Credit Card: Give your AI Agents autonomous virtual credit cards (Mastercard) via Stripe Issuing to pay for APIs and SaaS. x402 & MPP compatible.
+- [@asgcard/crypto-card](git+https://github.com/ASGCompute/asgcard-public.git) - Crypto Card: Give your AI Agents autonomous virtual credit cards (Mastercard) via Stripe Issuing to pay for APIs and SaaS. x402 & MPP compatible.
+- [@cipherpay/mcp](git+https://github.com/atmospherelabs-dev/cipherpay-mcp.git) - MCP server for CipherPay — let AI agents create invoices, verify Zcash payments (x402 + MPP), manage sessions, and check statuses.
+- [x402](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@asgcard/cli](git+https://github.com/ASGCompute/asgcard-public.git) - CLI for ASG Card — manage virtual MasterCard cards for AI agents from the terminal.
+- [@x402/evm](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol EVM Implementation.
+- [@x402/extensions](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol Extensions.
+- [@x402/svm](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol SVM Implementation.
+- [@x402/core](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@coinbase/x402](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol.
+- [@x402/fetch](git+https://github.com/coinbase/x402.git) - x402 Payment Protocol Fetch Extension.
 ## Services
 
 ### First-Party (native MPP)
@@ -316,6 +361,51 @@ Available through Tempo's MPP proxy -- pay with any MPP method:
 - [tempo-x402-demo](https://github.com/compusophy/tempo-x402-demo) - Interactive x402 demo on Tempo.
 - [emv-tempo](https://github.com/zhangzhongnan928/emv-tempo) - EMV contactless card payments settled on Tempo.
 
+- [PersonalAIEmployee](https://github.com/safdarayubpk/PersonalAIEmployee) - Hybrid cloud-local AI Employee that runs 24/7 on a cloud VM, monitors Gmail/WhatsApp, drafts responses, and queues approvals via git-synced Obsidian vault. Human-in-the-loop safety gates for email, so.
+- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
+- [stars-feed](https://github.com/jdecool/stars-feed) - A curated list of my GitHub stars.
+- [starred](https://github.com/ivuorinen/starred) - Automatically updated list of my starred repos.
+- [0xdelta-hub](https://github.com/JohnPreston2/0xdelta-hub) - 0xDelta Cyber Intelligence Dashboard - Real-time crypto monitoring.
+- [my-awesome-stars](https://github.com/SaschaLucius/my-awesome-stars) - My curated List of GitHub-Projects.
+- [furkankoykiran](https://github.com/furkankoykiran/furkankoykiran) - .
+- [Q4-Hackathon-0-Personal-AI-Employee](https://github.com/khawajanaqeeb/Q4-Hackathon-0-Personal-AI-Employee) - .
+- [awesome-mpp](https://github.com/mbeato/awesome-mpp) - The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments.
+- [awesome](https://github.com/tribixbite/awesome) - awesome github repos.
+- [loa-freeside](https://github.com/0xHoneyJar/loa-freeside) - Multi-tenant SaaS platform for token-gated onchain communities - wallet scoring, Discord/Telegram integration, and human-in-the-loop approval workflows.
+- [arkapi](https://github.com/PiHiker/arkapi) - Anonymous pay-per-call APIs for agents and developers, funded with Bitcoin over Ark.
+- [zap1](https://github.com/Frontier-Compute/zap1) - ZAP1 structured memo protocol for Zcash. BLAKE2b Merkle commitments, Orchard shielded anchoring, verification SDK.
+- [aidevops](https://github.com/marcusquinn/aidevops) - Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, securi.
+- [doli](https://github.com/doli-network/doli) - A peer-to-peer electronic cash system based on verifiable time.
+- [akaaicore](https://github.com/matheuspappin/akaaicore) - .
+- [Personal-Projects](https://github.com/sgupta285/Personal-Projects) - .
+- [t2000](https://github.com/mission69b/t2000) - A bank account for AI agents. DeFi banking via MCP — save, borrow, invest, exchange, send. Non-custodial on Sui.
+- [cryptoskill](https://github.com/jiayaoqijia/cryptoskill) - Skills for Crypto.
+- [agent-wallet](https://github.com/Sortis-AI/agent-wallet) - Give your agents money! A command-line wallet for Agents--MPP and Solana capable.
+- [blog](https://github.com/digoal/blog) - Opensource,Database,AI,Business,Minds. git clone --depth 1 https://github.com/digoal/blog.
+- [agent-payroll](https://github.com/Mani678/agent-payroll) - .
+- [t2000-skills](https://github.com/mission69b/t2000-skills) - .
+- [skills](https://github.com/alchemyplatform/skills) - .
+- [sales](https://github.com/sales-skills/sales) - .
+- [hub](https://github.com/getAlby/hub) - Alby Hub - Your own Bitcoin Lightning node: easy, connectable, feature-rich ✨ Run anywhere. Become self-sovereign.
+- [agentpay-mcp](https://github.com/up2itnow0822/agentpay-mcp) - Non-custodial x402 MCP payment layer for AI agents — the open-source alternative to Vercel x402-mcp.
+- [bitrouter](https://github.com/bitrouter/bitrouter) - The agentic proxy for modern agent runtimes. Smart, safe, agent-controlled routing across LLMs, tools, and agents.
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Post tweets, reply, like, retweet, follow, DM & more from OpenClaw. Full X/Twitter automation via Xquik — 120 endpoints, reads from $0.00015/call (33x cheaper than official X API). 2 tools, 2 commands.
+- [GDM-T1-Gerador-OffGrid](https://github.com/SafeMantella/GDM-T1-Gerador-OffGrid) - Simulação de sistema fotovoltaico off-grid de 200 Wp com bateria 48 V/100 Ah, usando dados reais do INMET (Campo Grande/MS). Compara algoritmos MPPT — Perturba & Observa vs. Método Beta — implementado.
+- [agent-with-wallet-template](https://github.com/dev-slater/agent-with-wallet-template) - .
+- [unboxed-loyalty-spark](https://github.com/aspekt19/unboxed-loyalty-spark) - .
+- [settlegrid](https://github.com/lexwhiting/settlegrid) - The settlement layer for AI agent payments. Per-call billing, 10 protocols, built-in discovery. Free forever.
+- [agentic-commerce-research](https://github.com/minddog/agentic-commerce-research) - Living research paper on agentic commerce — updated daily.
+- [voicempp](https://github.com/dieutx/voicempp) - Voice-as-a-Service for AI agents via Tempo MPP — TTS and STT micropayments.
+- [open-cast](https://github.com/il-figlio/open-cast) - Open-source Raycast extensions for crypto protocols.
+- [starList](https://github.com/hiifong/starList) - Export your star's repository list.
+- [AgentProof-OWS](https://github.com/BuilderBenv1/AgentProof-OWS) - .
+- [pay](https://github.com/solana-foundation/pay) - Developer Tool for Programmable Money Payments.
+- [agent-cost-governor](https://github.com/loquit-doru/agent-cost-governor) - .
+- [core-banking-prototype-laravel](https://github.com/FinAegis/core-banking-prototype-laravel) - FinAegis.
+- [marc](https://github.com/marc-protocol/marc) - The Privacy Layer for Agent Payments. FHE-encrypted tokens, agent identity, escrow-based commerce. 7 contracts, 6 plugins, 3 ERC standards.
+- [Stellar-Hackathon](https://github.com/abraham-yusuf/Stellar-Hackathon) - Stellar Hackathon Agent + X402 Resource.
+- [APIbase](https://github.com/whiteknightonhorse/APIbase) - Universal MCP gateway for AI agents — 413 tools, 123 providers. Flights, stocks, news, search, maps, sports, translation, legal, OCR, image gen, email, SMS. Pay per call with x402 USDC on Base + MPP T.
+- [trust-layer](https://github.com/ark-forge/trust-layer) - Certifying proxy for agent-to-agent transactions — SHA-256 proof chain, Ed25519 signatures, RFC 3161 timestamps, Sigstore Rekor.
 ## Tempo Blockchain
 
 The payments infrastructure powering MPP:
