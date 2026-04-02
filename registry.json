@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T01:13:43.270Z",
-  "total_projects": 226,
+  "generated_at": "2026-04-02T01:15:16.487Z",
+  "total_projects": 243,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -305,6 +305,30 @@
               "url": "https://github.com/paytoll/sdk",
               "description": "Developer toolkit for accepting machine payments on Solana via MPP",
               "type": "github"
+            },
+            {
+              "name": "Alchemy",
+              "url": "https://agents.alchemy.com/",
+              "description": "Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains",
+              "type": "external"
+            },
+            {
+              "name": "Allium",
+              "url": "https://allium.so",
+              "description": "System of record for onchain finance. Real-time Blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer",
+              "type": "external"
+            },
+            {
+              "name": "Codex",
+              "url": "https://codex.io",
+              "description": "Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL",
+              "type": "external"
+            },
+            {
+              "name": "QuickNode",
+              "url": "https://quicknode.com/",
+              "description": "Quicknode Core Node API for 80+ blockchains and 140+ networks",
+              "type": "external"
             }
           ]
         }
@@ -384,6 +408,18 @@
               "name": "Code Storage",
               "url": "https://code.storage",
               "description": "Paid Git repository creation with authenticated clone URLs",
+              "type": "external"
+            },
+            {
+              "name": "Object Storage",
+              "url": "https://tempo.xyz",
+              "description": "S3/R2-compatible object storage with dynamic per-size pricing",
+              "type": "external"
+            },
+            {
+              "name": "StableUpload",
+              "url": "https://stableupload.dev",
+              "description": "Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL",
               "type": "external"
             }
           ]
@@ -473,6 +509,12 @@
               "url": "https://github.com/raycashxyz/mpp-pay",
               "description": "CLI for making paid API requests via MPP",
               "type": "github"
+            },
+            {
+              "name": "Parallel",
+              "url": "https://parallel.ai",
+              "description": "Web search, page extraction, and multi-hop web research",
+              "type": "external"
             }
           ]
         }
@@ -1291,6 +1333,60 @@
               "url": "https://github.com/kphed/tempo-hackathon",
               "description": "Research-as-a-service over MPP with cited results for one cent per query",
               "type": "github"
+            },
+            {
+              "name": "StableTravel",
+              "url": "https://stabletravel.dev",
+              "description": "Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware",
+              "type": "external"
+            },
+            {
+              "name": "Stripe Climate",
+              "url": "https://stripe.com/climate",
+              "description": "Fund permanent carbon removal projects via Stripe Climate",
+              "type": "external"
+            },
+            {
+              "name": "PostalForm",
+              "url": "https://postalform.com",
+              "description": "Print and mail real letters and documents via AI agents",
+              "type": "external"
+            },
+            {
+              "name": "Prospect Butcher",
+              "url": "https://www.prospectbutcher.com",
+              "description": "Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent",
+              "type": "external"
+            },
+            {
+              "name": "StableEmail",
+              "url": "https://stableemail.dev",
+              "description": "Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts",
+              "type": "external"
+            },
+            {
+              "name": "StableEnrich",
+              "url": "https://stableenrich.dev",
+              "description": "Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment",
+              "type": "external"
+            },
+            {
+              "name": "StablePhone",
+              "url": "https://stablephone.dev",
+              "description": "AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request",
+              "type": "external"
+            },
+            {
+              "name": "StableSocial",
+              "url": "https://stablesocial.dev",
+              "description": "Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit",
+              "type": "external"
+            },
+            {
+              "name": "StableStudio",
+              "url": "https://stablestudio.dev",
+              "description": "Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan",
+              "type": "external"
             }
           ]
         },
@@ -1355,6 +1451,12 @@
               "name": "mpp-sample",
               "url": "https://github.com/mashharuki/mpp-sample",
               "description": "Sample code demonstrating the Machine Payments Protocol",
+              "type": "github"
+            },
+            {
+              "name": "awesome-mpp",
+              "url": "https://github.com/mbeato/awesome-mpp",
+              "description": "The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments",
               "type": "github"
             }
           ]
