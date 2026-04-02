@@ -133,6 +133,10 @@ Community:
 
 - [Object Storage](https://www.mpppay.fun/ecosystem) - S3/R2-compatible object storage with dynamic per-size pricing.
 - [StableUpload](https://www.mpppay.fun/ecosystem) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
+- [Code Storage](https://code.storage) - Paid Git repository creation — create repos and get authenticated clone URLs.
+- [Judge0](https://judge0.com) - Online code execution — run source code in 60+ programming languages with sandboxed isolation.
+- [Modal](https://modal.com) - Serverless GPU compute for sandboxed code execution and AI/ML workloads.
+- [ScreenshotOne](https://screenshotone.com) - Website screenshot API — capture any URL, HTML, or markdown as PNG, JPEG, WebP, or PDF. Full-page, element selection, dark mode, ad blocking, and more.
 ## Agent Tools & CLIs
 
 - [incur](https://github.com/wevm/incur) - CLI framework for agents and humans (by wevm). ![Stars](https://img.shields.io/github/stars/wevm/incur)
@@ -147,6 +151,10 @@ Community:
 - [openprice](https://github.com/tldr-wknd/openprice) - Price discovery middleware for the agent economy.
 
 - [Parallel](https://www.mpppay.fun/ecosystem) - Web search, page extraction, and multi-hop web research.
+- [Brave Search](https://brave.com/search) - Independent web search — web, news, images, videos, AI answers, and LLM context. Privacy-first search from a large independent index.
+- [Exa](https://exa.ai) - AI-powered web search, content retrieval, and answers.
+- [SerpApi](https://serpapi.com) - Google Flights search — real-time prices, schedules, and booking options.
+- [Tavily](https://tavily.com) - AI-optimized web search, content extraction, site mapping, and crawling API.
 ## Middleware & Extensions
 
 - [mppx-rate-limit](https://github.com/leigents/mppx-rate-limit) - Rate limiting for MPP routes.
@@ -241,6 +249,58 @@ Available through Tempo's MPP proxy -- pay with any MPP method:
 - [StablePhone](https://www.mpppay.fun/ecosystem) - AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request.
 - [StableSocial](https://www.mpppay.fun/ecosystem) - Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit.
 - [StableStudio](https://www.mpppay.fun/ecosystem) - Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan.
+- [OpenAI](https://openai.com) - Chat completions, embeddings, image generation, and audio with model-tier pricing.
+- [Anthropic](https://anthropic.com) - Claude chat completions (Sonnet, Opus, Haiku) via native and OpenAI-compatible APIs.
+- [OpenRouter](https://openrouter.ai) - Unified API for 100+ LLMs with live per-model pricing.
+- [2Captcha](https://2captcha.com) - CAPTCHA solving API — reCAPTCHA, Turnstile, hCaptcha, image captchas, and more.
+- [Alpha Vantage](https://www.alphavantage.co) - Financial market data — stock prices, forex, crypto, commodities, economic indicators, technical analysis, and news sentiment.
+- [Apollo](https://www.apollo.io) - People and company enrichment, lead search, and sales intelligence with 275M+ contacts.
+- [AviationStack](https://aviationstack.com) - Real-time and historical flight tracking, airports, airlines, and schedules.
+- [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X. Price starts at $0.01 and doubles with every post. The ultimate AI agent billboard.
+- [BuiltWith](https://builtwith.com) - Technology profiling for websites — detect tech stacks, find sites using specific technologies, discover domain relationships, trends, and competitive intelligence across 100M+ websites.
+- [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [CoinGecko](https://www.coingecko.com) - Cryptocurrency market data — prices, charts, market cap, exchanges, trending coins, global stats, NFTs, derivatives, and on-chain data.
+- [Company Enrichment](https://www.abstractapi.com/api/company-enrichment) - Enrich company data from a domain name.
+- [Deepgram](https://deepgram.com) - Industry-leading speech AI — transcribe audio from URLs with Nova-3, generate natural speech with Aura-2 TTS, and analyze text for sentiment, topics, intents, and summaries.
+- [DeepL](https://www.deepl.com) - Professional translation and text improvement — translate text between 30+ languages with industry-leading quality, or improve and rephrase text with DeepL Write.
+- [DeepSeek](https://deepseek.com) - Frontier AI models — DeepSeek-V3 for fast chat and code, DeepSeek-R1 for deep chain-of-thought reasoning. OpenAI-compatible API format. Among the most capable and cost-efficient models available.
+- [Diffbot](https://www.diffbot.com) - Web data extraction — articles, products, discussions, images, videos, and auto-detect.
+- [Diffbot KG](https://www.diffbot.com) - Knowledge Graph — search 10B+ entities and enrich company/person records.
+- [Diffbot NL](https://www.diffbot.com) - Natural language processing — NER, sentiment, facts, summarization.
+- [EDGAR (SEC)](https://www.sec.gov/developer) - SEC EDGAR public financial data — company filing history, XBRL financial facts (income statements, balance sheets, cash flows), and full-text search across all public filings. No API key required.
+- [EDGAR Full-Text Search](https://efts.sec.gov) - Full-text search across all SEC filings — 10-Ks, 10-Qs, 8-Ks, proxy statements, and more. Search by keyword, company name, form type, and date range.
+- [Email Reputation](https://www.abstractapi.com/api/email-reputation-api) - Check the reputation and risk score of an email address.
+- [Exchange Rates](https://www.abstractapi.com/api/exchange-rate-api) - Live, historical, and conversion exchange rates for 150+ currencies.
+- [fal.ai](https://fal.ai) - Image, video, and audio generation with 600+ models (Flux, SD, Recraft, Grok).
+- [Firecrawl](https://firecrawl.dev) - Web scraping, crawling, and structured data extraction for LLMs.
+- [FlightAPI](https://flightapi.io) - Real-time flight prices, tracking, and airport schedules from 700+ airlines.
+- [GoFlightLabs](https://goflightlabs.com) - Real-time flight tracking, prices, schedules, and airline data.
+- [Google Gemini](https://ai.google.dev) - Gemini text generation, Veo video, and Nano Banana image generation with model-tier pricing.
+- [Google Maps](https://developers.google.com/maps) - Google Maps Platform — geocoding, directions, places, routes, tiles, weather, air quality, and more.
+- [Grok](https://x.ai) - xAI models — chat, web/X search, code execution, image generation/editing, and text-to-speech.
+- [Groq](https://groq.com) - Ultra-fast LLM inference — Llama 3.3, DeepSeek R1, Gemma 2, GPT-OSS, Qwen, Whisper, and PlayAI TTS. OpenAI-compatible API with industry-leading speed.
+- [Holidays](https://www.abstractapi.com/api/holidays-api) - Public holiday data for 200+ countries.
+- [Hunter](https://hunter.io) - Email finding, verification, and company enrichment for outreach and lead generation.
+- [IBAN Validation](https://www.abstractapi.com/api/iban-validation-api) - Validate International Bank Account Numbers (IBANs).
+- [IP Intelligence](https://www.abstractapi.com/api/ip-intelligence-api) - Detect VPNs, proxies, bots, and Tor nodes by IP address.
+- [IPinfo](https://ipinfo.io) - IP intelligence — geolocation, ASN, privacy detection, carrier data, and hosting identification.
+- [KicksDB](https://kicks.dev) - Sneaker & streetwear market data — prices, sales history, and availability from StockX, GOAT, and more.
+- [Mapbox](https://www.mapbox.com) - Location and mapping APIs — geocoding, directions, isochrones, matrix routing, map matching, static maps, and spatial queries.
+- [Mathpix](https://mathpix.com) - OCR for math, science, and documents — extract LaTeX, MathML, and Mathpix Markdown from images and handwriting.
+- [Mistral AI](https://mistral.ai) - Premier and open-source LLMs — Mistral Large, Medium, Small, Codestral, Magistral reasoning, Pixtral vision, text embeddings, and content moderation.
+- [OpenWeather](https://openweathermap.org) - Global weather data — current conditions, 5-day forecasts, hourly forecasts, air quality index with pollutants, geocoding, and One Call 3.0 with full weather suite and government alerts.
+- [Oxylabs](https://oxylabs.io) - Web scraping API with geo-targeting by country, state, and city. Fetch any public URL with JavaScript rendering support.
+- [Perplexity](https://perplexity.ai) - AI-powered search — Sonar chat with real-time web grounding, web search, and embeddings.
+- [Phone Intelligence](https://www.abstractapi.com/api/phone-validation-api) - Validate and get carrier info for phone numbers worldwide.
+- [RentCast](https://rentcast.io) - US real estate intelligence — property records, AVM valuations, rent estimates, sale/rental listings, and market statistics.
+- [Replicate](https://replicate.com) - Run thousands of open-source AI models via API — image generation, language models, speech recognition, video, and more. Pay only for what you use.
+- [SpyFu](https://spyfu.com) - Competitor keyword research — SEO rankings, PPC ads, ad history, and domain analytics. 18+ years of historical data.
+- [Stability AI](https://stability.ai) - Generative AI platform for images, 3D models, and audio — text-to-image, editing, upscaling, and more.
+- [Suno](https://sunoapi.org) - AI music generation — create full songs, generate lyrics, and build custom music tracks with state-of-the-art AI models. Supports custom styles, vocals, and instrumental modes.
+- [Timezone](https://www.abstractapi.com/api/time-date-timezone-api) - Current time and timezone conversion for any location.
+- [VAT](https://www.abstractapi.com/api/vat-validation-rates-api) - VAT number validation, rate calculation, and category lookup for EU.
+- [Web Scraping](https://www.abstractapi.com/api/web-scraping-api) - Scrape web pages with optional JavaScript rendering.
+- [Wolfram|Alpha](https://www.wolframalpha.com) - Computational knowledge engine — math, science, geography, history, nutrition, finance, and more. Get answers as text, spoken audio, LLM-optimized data, or full structured results.
 ### Demos & Examples
 
 - [stellar-mpp-demo](https://github.com/stellar-experimental/stellar-mpp-demo) - Stellar chat via micropayments.
