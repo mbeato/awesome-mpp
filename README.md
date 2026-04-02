@@ -101,6 +101,11 @@ MPP is payment-method agnostic. Each chain/rail has its own plugin:
 - [xrpl-mpp-stack](https://github.com/lgcarrier/xrpl-mpp-stack) - XRP Ledger (Python, charge + session).
 - [@raycashxyz/mpp](https://www.npmjs.com/package/@raycashxyz/mpp) - Private payments via Raycash.
 
+- [Alchemy](https://www.mpppay.fun/ecosystem) - Blockchain data APIs including Core RPC APIs, Prices API, Portfolio API, and NFT API across 100+ chains.
+- [Allium](https://www.mpppay.fun/ecosystem) - System of record for onchain finance. Real-time blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer.
+- [Codex](https://www.mpppay.fun/ecosystem) - Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL.
+- [QuickNode](https://www.mpppay.fun/ecosystem) - Quicknode Core Node API for 80+ blockchains and 140+ networks.
+- [Tempo RPC](https://www.mpppay.fun/ecosystem) - Tempo blockchain JSON-RPC access (mainnet and testnet).
 ## Framework Integrations
 
 Built into `mppx`:
@@ -126,6 +131,8 @@ Community:
 - [mpp-cloudflare-dynamic-edge-agent](https://github.com/sam00101011/mpp-cloudflare-dynamic-edge-agent) - Dynamic edge agent on Cloudflare Workers.
 - [tollbooth](https://github.com/abhay/tollbooth) - Solana payment gateway with MPP, gasless fee relayer, axum middleware.
 
+- [Object Storage](https://www.mpppay.fun/ecosystem) - S3/R2-compatible object storage with dynamic per-size pricing.
+- [StableUpload](https://www.mpppay.fun/ecosystem) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
 ## Agent Tools & CLIs
 
 - [incur](https://github.com/wevm/incur) - CLI framework for agents and humans (by wevm). ![Stars](https://img.shields.io/github/stars/wevm/incur)
@@ -139,6 +146,7 @@ Community:
 - [mcp-protocol-tester](https://github.com/whiteknightonhorse/mcp-protocol-tester) - Universal test suite for MCP servers with dual-rail payment testing (x402 + MPP).
 - [openprice](https://github.com/tldr-wknd/openprice) - Price discovery middleware for the agent economy.
 
+- [Parallel](https://www.mpppay.fun/ecosystem) - Web search, page extraction, and multi-hop web research.
 ## Middleware & Extensions
 
 - [mppx-rate-limit](https://github.com/leigents/mppx-rate-limit) - Rate limiting for MPP routes.
@@ -221,6 +229,18 @@ Available through Tempo's MPP proxy -- pay with any MPP method:
 - [TheMinutes](https://github.com/xfajarr/TheMinutes) - Service router for AI agents on Tempo. Discover, compare, route to 100+ MPP services.
 - [tempo-private-payments](https://github.com/zhivkoto/tempo-private-payments) - Confidential stablecoin transfers via stealth addresses + MPP.
 
+- [StableTravel](https://www.mpppay.fun/ecosystem) - Pay-per-request travel APIs — flights, hotels, activities, transfers, and real-time flight tracking. Powered by Amadeus and FlightAware.
+- [Stripe Climate](https://www.mpppay.fun/ecosystem) - Fund permanent carbon removal projects via Stripe Climate.
+- [Browserbase](https://www.mpppay.fun/ecosystem) - Headless browser sessions, web search, and page fetching for AI agents.
+- [AgentMail](https://www.mpppay.fun/ecosystem) - Email inboxes for AI agents.
+- [Dune](https://www.mpppay.fun/ecosystem) - Query across raw transaction data, decoded smart contract events, stablecoin flows, RWA tracking, protocol analytics, DeFi positions, NFT activity, blockchain market research, and whatever is trending.
+- [PostalForm](https://www.mpppay.fun/ecosystem) - Print and mail real letters and documents via AI agents.
+- [Prospect Butcher](https://www.mpppay.fun/ecosystem) - Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent.
+- [StableEmail](https://www.mpppay.fun/ecosystem) - Pay-per-send email delivery, forwarding inboxes, and custom subdomains — no API keys or accounts.
+- [StableEnrich](https://www.mpppay.fun/ecosystem) - Pay-per-request research APIs — people, companies, web search, scraping, places, social media, and contact enrichment.
+- [StablePhone](https://www.mpppay.fun/ecosystem) - AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request.
+- [StableSocial](https://www.mpppay.fun/ecosystem) - Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit.
+- [StableStudio](https://www.mpppay.fun/ecosystem) - Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan.
 ### Demos & Examples
 
 - [stellar-mpp-demo](https://github.com/stellar-experimental/stellar-mpp-demo) - Stellar chat via micropayments.
