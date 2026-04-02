@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T01:17:07.783Z",
-  "total_projects": 240,
+  "generated_at": "2026-04-02T04:22:01.503Z",
+  "total_projects": 241,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -508,6 +508,12 @@
               "name": "@raycashxyz/mpp-pay",
               "url": "https://github.com/raycashxyz/mpp-pay",
               "description": "CLI for making paid API requests via MPP",
+              "type": "github"
+            },
+            {
+              "name": "satring",
+              "url": "https://github.com/toadlyBroodle/satring",
+              "description": "Service directory for the agent economy with L402 and x402 discovery, ratings, and Lightning payments",
               "type": "github"
             },
             {
