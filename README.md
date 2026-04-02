@@ -91,6 +91,7 @@ MPP is payment-method agnostic. Each chain or rail has its own plugin.
 - [Allium](https://allium.so) - System of record for onchain finance. Real-time Blockchain data: token prices, wallet balances, transactions, PnL, and SQL explorer.
 - [Codex](https://codex.io) - Comprehensive onchain data API for tokens and prediction markets. Real-time prices, charts, trades, and wallet analytics across 80+ networks via GraphQL.
 - [QuickNode](https://quicknode.com/) - Core Node API for 80+ Blockchains and 140+ networks.
+- [Tempo RPC](https://tempo.xyz) - Tempo Blockchain JSON-RPC access (mainnet and testnet).
 ## Framework Integrations
 
 The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js, Elysia, Bun.serve, and Deno.serve. Community integrations extend MPP to additional frameworks.
@@ -282,6 +283,8 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [StablePhone](https://stablephone.dev) - AI phone calls, dedicated phone numbers, and iMessage/FaceTime lookup — pay per request.
 - [StableSocial](https://stablesocial.dev) - Pay-per-request social media data from TikTok, Instagram, Facebook, and Reddit.
 - [StableStudio](https://stablestudio.dev) - Pay-per-generation AI image and video creation — Nano Banana, GPT Image, Grok, Flux, Sora, Veo, Seedance, and Wan.
+- [PostalForm](https://postalform.com) - Print and mail real letters and documents via AI agents.
+- [Prospect Butcher](https://www.prospectbutcher.com) - Order sandwiches for pickup in Brooklyn — the first food purchase made entirely by an AI agent.
 ### Demos and Examples
 
 - [stellar-mpp-demo](https://github.com/stellar-experimental/stellar-mpp-demo) - Stellar chat via micropayments.
