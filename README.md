@@ -125,6 +125,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - Auto-pays HTTP 402 responses on Base, Solana, and Tempo. Includes MCP stdio proxy for AI agents and pay-per-token streaming via MPP sessions.
 - [knox](https://github.com/stephancill/knox) - Moddable payments CLI for x402 and MPP.
 - [@raycashxyz/mpp-pay](https://github.com/raycashxyz/mpp-pay) - CLI for making paid API requests via MPP.
+- [satring](https://github.com/toadlyBroodle/satring) - Service directory for the agent economy with L402 and x402 discovery, ratings, and Lightning payments.
 
 - [Parallel](https://parallel.ai) - Web search, page extraction, and multi-hop web research.
 ## Middleware and Extensions
