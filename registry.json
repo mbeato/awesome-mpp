@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T12:51:29.116Z",
-  "total_projects": 275,
+  "generated_at": "2026-04-03T06:00:22.509Z",
+  "total_projects": 279,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -740,6 +740,12 @@
               "name": "402-crawler-spec",
               "url": "https://github.com/taskhawk-systems/402-crawler-spec",
               "description": "Reference crawler and discovery schemas for L402, x402, and MPP paid API endpoints",
+              "type": "github"
+            },
+            {
+              "name": "@x402/evm",
+              "url": "https://github.com/x402-foundation/x402",
+              "description": "X402 Payment Protocol EVM Implementation",
               "type": "github"
             }
           ]
@@ -1650,6 +1656,24 @@
               "name": "awesome-mpp",
               "url": "https://github.com/mbeato/awesome-mpp",
               "description": "The MPP registry — 100+ Machine Payments Protocol tools, SDKs, services, and payment methods across 15+ chains. The definitive directory for Stripe + Tempo agent payments",
+              "type": "github"
+            },
+            {
+              "name": "mpp-xpr",
+              "url": "https://github.com/charliebot87/mpp-xpr",
+              "description": "XPR Network payment method for MPP (Machine Payments Protocol) — zero gas fees, sub-second finality",
+              "type": "github"
+            },
+            {
+              "name": "mpp-sdk",
+              "url": "https://github.com/hyli-org/mpp-sdk",
+              "description": "Integration of Hyli for the Machine Payments Protocol",
+              "type": "github"
+            },
+            {
+              "name": "mpp-bds-client",
+              "url": "https://github.com/powerloom/mpp-bds-client",
+              "description": "Reference clients for consuming BDS datamarket API (https://bds.powerloom.io) endpoints via the Machine Payment Protocol (MPP)",
               "type": "github"
             }
           ]
