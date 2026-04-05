@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-04T10:08:56.081Z",
-  "total_projects": 282,
+  "generated_at": "2026-04-05T06:00:23.806Z",
+  "total_projects": 284,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -1692,6 +1692,18 @@
               "name": "ASGCompute-ows-agent-pay",
               "url": "https://github.com/ASGCompute/ASGCompute-ows-agent-pay",
               "description": "ASG Pay - Payment infrastructure for autonomous AI agents. 15 networks (EVM, Stellar, Solana, Stripe MPP), dual protocol (x402 + MPP), fail-closed policy engine. npm: @asgcard/pay",
+              "type": "github"
+            },
+            {
+              "name": "mppx-arc",
+              "url": "https://github.com/Himess/mppx-arc",
+              "description": "MPP (Machine Payments Protocol) payment method for Circle's Arc chain — USDC-native charge + session support",
+              "type": "github"
+            },
+            {
+              "name": "robotpostal",
+              "url": "https://github.com/intenex/robotpostal",
+              "description": "Physical mail for AI agents. API-first postal service with x402, MPP, and Stripe payments",
               "type": "github"
             }
           ]
