@@ -173,7 +173,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 
 Services with built-in MPP payment support:
 
-- [APIMesh](https://github.com/mbeato/conway) - 42 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, microservice-health-check, status-code-checker, regex-builder, +36 more). Supports x402 + MPP.
+- [APIMesh](https://github.com/mbeato/conway) - 45 pay-per-call APIs for AI agents (web-checker, http-status-checker, favicon-checker, microservice-health-check, status-code-checker, regex-builder, +39 more). Supports x402 + MPP.
 - [paid-image-api](https://github.com/cepuyut/paid-image-api) - Pay-per-request AI image generation on Tempo.
 - [Dtelecom](https://github.com/dteIecom/Dtelecom) - Real-time voice, video, and voice AI with pay-per-use via x402/MPP.
 - [Surf](https://surf.cascade.fyi) - Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents with dual-protocol support on Base, Solana, and Tempo.
