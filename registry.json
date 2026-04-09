@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T10:19:35.704Z",
-  "total_projects": 286,
+  "generated_at": "2026-04-09T01:20:44.253Z",
+  "total_projects": 287,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -226,6 +226,12 @@
               "name": "mpp-ton",
               "url": "https://github.com/TesseraeVentures/mpp-ton",
               "description": "TON payment method for MPP",
+              "type": "github"
+            },
+            {
+              "name": "gradience-wallet",
+              "url": "https://github.com/DaviRain-Su/gradience-wallet",
+              "description": "Agent wallet orchestration platform with MPP charge and session support for BSC, Conflux (eSpace + Core), XLayer, TON, Solana, Base, Arbitrum, Polygon, and Optimism",
               "type": "github"
             },
             {

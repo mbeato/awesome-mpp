@@ -72,6 +72,7 @@ MPP is payment-method agnostic. Each chain or rail has its own plugin.
 - [mpp-abstract](https://github.com/Abstract-Foundation/mpp-abstract) - Abstract chain with custom intents and escrow.
 - [mpp-movement](https://github.com/MoveIndustries/mpp-movement) - Movement Network payment method.
 - [mpp-ton](https://github.com/TesseraeVentures/mpp-ton) - TON payment method for MPP.
+- [gradience-wallet](https://github.com/DaviRain-Su/gradience-wallet) - Agent wallet orchestration platform with MPP charge and session support for BSC, Conflux (eSpace + Core), XLayer, TON, Solana, Base, Arbitrum, Polygon, and Optimism.
 - [algorand-mpp-sdk](https://github.com/GoPlausible/algorand-mpp-sdk) - Algorand payment method for MPP.
 - [mpp-avalanche](https://github.com/ashucoder9/mpp-avalanche) - Avalanche with streaming payment channels.
 - [mppx-multiversx](https://github.com/sasurobert/mppx-multiversx) - MultiversX payment method for MPP.
