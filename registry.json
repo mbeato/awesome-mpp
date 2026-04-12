@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-11T10:06:43.050Z",
-  "total_projects": 286,
+  "generated_at": "2026-04-12T06:00:24.344Z",
+  "total_projects": 293,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -746,6 +746,12 @@
               "name": "@x402/evm",
               "url": "https://github.com/x402-foundation/x402",
               "description": "X402 Payment Protocol EVM Implementation",
+              "type": "github"
+            },
+            {
+              "name": "@suimpp/mpp",
+              "url": "https://github.com/mission69b/suimpp",
+              "description": "Sui USDC payment method for the Machine Payments Protocol (MPP)",
               "type": "github"
             }
           ]
@@ -1716,6 +1722,42 @@
               "name": "Stellect",
               "url": "https://github.com/anilkaracay/Stellect",
               "description": "The agent payment gateway for Stellar. Smart routing between x402 and MPP — one SDK, any protocol, real USDC settlement",
+              "type": "github"
+            },
+            {
+              "name": "parley",
+              "url": "https://github.com/mcevoyinit/parley",
+              "description": "Tiered pricing extension for MPP (Machine Payments Protocol). Agents negotiate the best endpoint tier via HTTP 402",
+              "type": "github"
+            },
+            {
+              "name": "AgentShield",
+              "url": "https://github.com/lucarizzo03/AgentShield",
+              "description": "A two-plane orchestration and budget gateway for the Machine Payments Protocol (MPP). Safely delegate Tempo wallet spend to AI agents via cryptographic vouchers",
+              "type": "github"
+            },
+            {
+              "name": "FindMeACitiBike",
+              "url": "https://github.com/mmurrs/FindMeACitiBike",
+              "description": "Pick up a bike or find a dock. Real-time Citi Bike availability for NYC — paid per request via Machine Payments Protocol",
+              "type": "github"
+            },
+            {
+              "name": "tempo-agent-treaty",
+              "url": "https://github.com/mcevoyinit/tempo-agent-treaty",
+              "description": "Agentic OTC block trading on Tempo chain. AI agents negotiate large trades P2P using Vellum SDK, settled via MPP (Machine Payments Protocol)",
+              "type": "github"
+            },
+            {
+              "name": "bkey-ios-x402",
+              "url": "https://github.com/fabianbaier/bkey-ios-x402",
+              "description": "BKey iOS SDK — x402/MPP machine-payment support",
+              "type": "github"
+            },
+            {
+              "name": "moltpe-agent-payments",
+              "url": "https://github.com/umangbuilds/moltpe-agent-payments",
+              "description": "Payment infrastructure for AI agents. Reference implementation: x402 + MPP + fiat",
               "type": "github"
             }
           ]
