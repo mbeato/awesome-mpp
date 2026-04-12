@@ -167,6 +167,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [402-crawler-spec](https://github.com/taskhawk-systems/402-crawler-spec) - Reference crawler and discovery schemas for L402, x402, and MPP paid API endpoints.
 
 - [@x402/evm](https://github.com/x402-foundation/x402) - X402 Payment Protocol EVM Implementation.
+- [@suimpp/mpp](https://github.com/mission69b/suimpp) - Sui USDC payment method for the Machine Payments Protocol (MPP).
 ## Services
 
 ### First-Party
@@ -311,6 +312,12 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [robotpostal](https://github.com/intenex/robotpostal) - Physical mail for AI agents. API-first postal service with x402, MPP, and Stripe payments.
 - [Starlane](https://github.com/Cassxbt/Starlane) - Dual-rail payment infrastructure for AI agents on Stellar — x402 per-call and MPP payment channels, with a service registry and MCP  interface.
 - [Stellect](https://github.com/anilkaracay/Stellect) - The agent payment gateway for Stellar. Smart routing between x402 and MPP — one SDK, any protocol, real USDC settlement.
+- [parley](https://github.com/mcevoyinit/parley) - Tiered pricing extension for MPP (Machine Payments Protocol). Agents negotiate the best endpoint tier via HTTP 402.
+- [AgentShield](https://github.com/lucarizzo03/AgentShield) - A two-plane orchestration and budget gateway for the Machine Payments Protocol (MPP). Safely delegate Tempo wallet spend to AI agents via cryptographic vouchers.
+- [FindMeACitiBike](https://github.com/mmurrs/FindMeACitiBike) - Pick up a bike or find a dock. Real-time Citi Bike availability for NYC — paid per request via Machine Payments Protocol.
+- [tempo-agent-treaty](https://github.com/mcevoyinit/tempo-agent-treaty) - Agentic OTC block trading on Tempo chain. AI agents negotiate large trades P2P using Vellum SDK, settled via MPP (Machine Payments Protocol).
+- [bkey-ios-x402](https://github.com/fabianbaier/bkey-ios-x402) - BKey iOS SDK — x402/MPP machine-payment support.
+- [moltpe-agent-payments](https://github.com/umangbuilds/moltpe-agent-payments) - Payment infrastructure for AI agents. Reference implementation: x402 + MPP + fiat.
 ## Tempo Blockchain
 
 The payments infrastructure powering MPP:
