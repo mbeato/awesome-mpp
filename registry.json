@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T06:00:24.344Z",
-  "total_projects": 293,
+  "generated_at": "2026-04-12T06:01:01.451Z",
+  "total_projects": 295,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -565,6 +565,12 @@
               "type": "github"
             },
             {
+              "name": "agentic-wallet",
+              "url": "https://github.com/smukh/agentic-wallet",
+              "description": "Unified CLI for AI agent wallets across Coinbase, Tempo, OpenWallet, and Crossmint. Interactive and non-interactive modes with JSON output and multi-chain support",
+              "type": "github"
+            },
+            {
               "name": "Parallel",
               "url": "https://parallel.ai",
               "description": "Web search, page extraction, and multi-hop web research",
@@ -603,6 +609,12 @@
               "url": "https://github.com/observer-protocol/mpp-integration",
               "description": "Trust and reputation layer for MPP sellers",
               "type": "github"
+            },
+            {
+              "name": "@moltrust/mpp",
+              "url": "https://www.npmjs.com/package/@moltrust/mpp",
+              "description": "W3C DID-based trust score middleware for MPP. Pre-transaction agent verification via MolTrust trust scores. Works with mppx",
+              "type": "npm"
             },
             {
               "name": "sardis-guard-mpp",
