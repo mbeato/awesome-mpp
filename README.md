@@ -183,6 +183,7 @@ Services with built-in MPP payment support:
 - [Surf](https://surf.cascade.fyi) - Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents with dual-protocol support on Base, Solana, and Tempo.
 - [AgentMail](https://agentmail.to) - Email inboxes for AI agents.
 - [Browserbase](https://browserbase.com) - Headless browser sessions, web search, and page fetching for AI agents.
+- [C2PAVerify](https://c2pa.mppfy.com) - Verify C2PA (Content Provenance and Authenticity) manifests on images, video, and audio. Extracts embedded manifest, validates signature chain against the CAI trust list, returns structured provenance report.
 - [Dune](https://dune.com) - Query raw transaction data, decoded smart contract events, stablecoin flows, and protocol analytics.
 - [Judge0](https://judge0.com) - Online code execution in 60+ programming languages with sandboxed isolation.
 - [Modal](https://modal.com) - Serverless GPU compute for sandboxed code execution and AI/ML workloads.
