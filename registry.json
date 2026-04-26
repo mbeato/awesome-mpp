@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-25T10:08:23.405Z",
-  "total_projects": 305,
+  "generated_at": "2026-04-26T06:00:42.151Z",
+  "total_projects": 312,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -1830,6 +1830,48 @@
               "name": "stellar-agent-mesh",
               "url": "https://github.com/ghost-clio/stellar-agent-mesh",
               "description": "Agent-to-agent economic infrastructure on Stellar via x402 payments",
+              "type": "github"
+            },
+            {
+              "name": "mpp-example",
+              "url": "https://github.com/goodmeta/mpp-example",
+              "description": "Minimal MPP (Machine Payments Protocol) charge intent - TicketShop example",
+              "type": "github"
+            },
+            {
+              "name": "mpp-rb",
+              "url": "https://github.com/stripe/mpp-rb",
+              "description": "Ruby SDK for the Machine Payments Protocol",
+              "type": "github"
+            },
+            {
+              "name": "ln-church-agent",
+              "url": "https://github.com/mayim-mayim/ln-church-agent",
+              "description": "Python HTTP 402 client SDK for agentic payments across x402, L402, and MPP. LN Church is the reference public sandbox",
+              "type": "github"
+            },
+            {
+              "name": "facilitator",
+              "url": "https://github.com/402md/facilitator",
+              "description": "Cross-chain USDC rail for agentic payments, speaking x402 and MPP",
+              "type": "github"
+            },
+            {
+              "name": "payment-sdk",
+              "url": "https://github.com/FinAegis/payment-sdk",
+              "description": "Zelta Payment SDK — transparent x402 and MPP payment handling for PHP (auto-synced mirror of packages/zelta-sdk in core-banking-prototype-laravel)",
+              "type": "github"
+            },
+            {
+              "name": "agent-gateway",
+              "url": "https://github.com/tangle-network/agent-gateway",
+              "description": "X402 + MPP + API-key payment gateway middleware for Tangle agent APIs",
+              "type": "github"
+            },
+            {
+              "name": "agent-payment-protocols",
+              "url": "https://github.com/Custena/agent-payment-protocols",
+              "description": "A neutral landscape analysis of AI agent payment protocols (x402, MPP, L402, Google AP2, Visa TAP + ICC, Mastercard Agent Pay, Amex ACE, Google/Shopify UCP, OpenAI ACP, and others). Maintained by Gene",
               "type": "github"
             }
           ]
