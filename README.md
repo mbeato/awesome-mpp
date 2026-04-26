@@ -330,6 +330,13 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [routedock](https://github.com/winsznx/routedock) - Unified payment execution layer for Stellar x402, MPP charge, MPP session behind one client.pay() call.
 - [rever-ai](https://github.com/alienworld1/rever-ai) - Credit scores for AI agents. An on-chain reputation layer built on Stellar using x402 and MPP. Agents earn trust through their payment history to unlock lower API rates and sub-5ms session latency. Ze.
 - [stellar-agent-mesh](https://github.com/ghost-clio/stellar-agent-mesh) - Agent-to-agent economic infrastructure on Stellar via x402 payments.
+- [mpp-example](https://github.com/goodmeta/mpp-example) - Minimal MPP (Machine Payments Protocol) charge intent - TicketShop example.
+- [mpp-rb](https://github.com/stripe/mpp-rb) - Ruby SDK for the Machine Payments Protocol.
+- [ln-church-agent](https://github.com/mayim-mayim/ln-church-agent) - Python HTTP 402 client SDK for agentic payments across x402, L402, and MPP. LN Church is the reference public sandbox.
+- [facilitator](https://github.com/402md/facilitator) - Cross-chain USDC rail for agentic payments, speaking x402 and MPP.
+- [payment-sdk](https://github.com/FinAegis/payment-sdk) - Zelta Payment SDK — transparent x402 and MPP payment handling for PHP (auto-synced mirror of packages/zelta-sdk in core-banking-prototype-laravel).
+- [agent-gateway](https://github.com/tangle-network/agent-gateway) - X402 + MPP + API-key payment gateway middleware for Tangle agent APIs.
+- [agent-payment-protocols](https://github.com/Custena/agent-payment-protocols) - A neutral landscape analysis of AI agent payment protocols (x402, MPP, L402, Google AP2, Visa TAP + ICC, Mastercard Agent Pay, Amex ACE, Google/Shopify UCP, OpenAI ACP, and others). Maintained by Gene.
 ## Tempo Blockchain
 
 The payments infrastructure powering MPP:
