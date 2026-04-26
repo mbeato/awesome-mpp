@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-26T06:00:42.151Z",
-  "total_projects": 312,
+  "generated_at": "2026-04-26T06:01:14.451Z",
+  "total_projects": 313,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -816,6 +816,12 @@
               "name": "Browserbase",
               "url": "https://browserbase.com",
               "description": "Headless browser sessions, web search, and page fetching for AI agents",
+              "type": "external"
+            },
+            {
+              "name": "C2PAVerify",
+              "url": "https://c2pa.mppfy.com",
+              "description": "Verify C2PA (Content Provenance and Authenticity) manifests on images, video, and audio. Extracts embedded manifest, validates signature chain against the CAI trust list, returns structured provenance report",
               "type": "external"
             },
             {
