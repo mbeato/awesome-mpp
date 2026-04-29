@@ -171,6 +171,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [@x402/evm](https://github.com/x402-foundation/x402) - X402 Payment Protocol EVM Implementation.
 - [@suimpp/mpp](https://github.com/mission69b/suimpp) - Sui USDC payment method for the Machine Payments Protocol (MPP).
 - [auditor-mcp](https://github.com/xaviersharwin10/soroban_node_0) - MCP server that audits Soroban smart contracts via autonomous x402 / Stripe MPP payments on Stellar Testnet.
+- [Hive Civilization](https://thehiveryiq.com) - DID-federated trust score, Spectral receipts, and identity passport for MPP-paying agents. Composes with mppx via Express middleware. Rail-agnostic: x402 and MPP both accepted on same routes.
 ## Services
 
 ### First-Party
