@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [VirtualSMS](https://virtualsms.io) - Pay-per-use SMS verification via x402 on Base and Solana. Real-carrier numbers across 145+ countries and 2,500+ services from $0.05/code, with deposit-based balance and an MCP server for AI agents.
 
 ### Proxied via Tempo
 
