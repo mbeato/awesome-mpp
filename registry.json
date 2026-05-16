@@ -1530,7 +1530,7 @@
             {
               "name": "tweetclaw",
               "url": "https://github.com/Xquik-dev/tweetclaw",
-              "description": "Full X/Twitter automation via OpenClaw with 120 endpoints and pay-per-call pricing",
+              "description": "OpenClaw plugin for X/Twitter workflows. MPP covers 31 read-only X API endpoints; account-backed flows handle posting, replies, media, monitoring, and webhooks",
               "type": "github"
             },
             {

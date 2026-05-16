@@ -276,7 +276,7 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [ghost-kitchen](https://github.com/max-digi/ghost-kitchen) - Agentic B2B payments demo with multi-hop MPP cascades, virtual debit cards, and DoorDash delivery.
 - [voicempp](https://github.com/dieutx/voicempp) - Voice-as-a-Service for AI agents via Tempo MPP with TTS and STT micropayments.
 - [tempo-agent-payments-demo](https://github.com/glabun002/tempo-agent-payments-demo) - Agent-to-agent payments on Tempo Blockchain with autonomous AI agents transacting via MPP.
-- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Full X/Twitter automation via OpenClaw with 120 endpoints and pay-per-call pricing.
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for X/Twitter workflows. MPP covers 31 read-only X API endpoints; account-backed flows handle posting, replies, media, monitoring, and webhooks.
 - [lorem-ipsum-api](https://github.com/stephancill/lorem-ipsum-api) - Paywalled lorem ipsum API supporting x402 and MPP.
 - [arkapi](https://github.com/PiHiker/arkapi) - Anonymous pay-per-call APIs for agents and developers funded with Bitcoin over Ark.
 - [agentic-commerce-research](https://github.com/minddog/agentic-commerce-research) - Living research paper on agentic commerce updated daily.
