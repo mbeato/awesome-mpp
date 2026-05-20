@@ -110,6 +110,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [tollbooth](https://github.com/abhay/tollbooth) - Solana payment gateway with MPP, gasless fee relayer, and axum middleware.
 - [Code Storage](https://code.storage) - Paid Git repository creation with authenticated clone URLs.
 - [asgcard-public](https://github.com/ASGCompute/asgcard-public) - Virtual MasterCards for AI agents with USDC payments via x402 on Stellar.
+- [AlgoVoi](https://algovoi.co.uk) - Multi-chain MPP facilitator across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo) with compliance gating (sanctions screening, KYB) and RFC 8785 JCS audit-chain retention.
 
 - [Object Storage](https://objectstorage.dev) - S3/R2-compatible object storage with dynamic per-size pricing.
 - [StableUpload](https://stableupload.dev) - Pay-per-upload file hosting and static site hosting with custom domains — 6 month TTL.
