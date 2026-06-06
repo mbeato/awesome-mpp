@@ -181,6 +181,7 @@ Services with built-in MPP payment support:
 - [paid-image-api](https://github.com/cepuyut/paid-image-api) - Pay-per-request AI image generation on Tempo.
 - [Dtelecom](https://github.com/dteIecom/Dtelecom) - Real-time voice, video, and voice AI with pay-per-use via x402/MPP.
 - [Surf](https://surf.cascade.fyi) - Pay-per-use Twitter, Reddit, web, and inference APIs for AI agents with dual-protocol support on Base, Solana, and Tempo.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — Solana-native MCP server providing x402 trust receipts and agent preflight scoring. Pay-per-call signed V5 trust receipts at https://intel.twzrd.xyz/mcp
 - [AgentMail](https://agentmail.to) - Email inboxes for AI agents.
 - [Browserbase](https://browserbase.com) - Headless browser sessions, web search, and page fetching for AI agents.
 - [C2PAVerify](https://c2pa.mppfy.com) - Verify C2PA (Content Provenance and Authenticity) manifests on images, video, and audio. Extracts embedded manifest, validates signature chain against the CAI trust list, returns structured provenance report.
