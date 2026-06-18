@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Agent Ready](https://agent-ready.dev/api/x402/scan) - Pay-per-scan AI agent-readability scanner; scores any site against the agent-readability spec, llms.txt, and agent-protocol manifests (MCP, A2A, x402). USDC on Base. Supports x402 + MPP.
 
 ### Proxied via Tempo
 

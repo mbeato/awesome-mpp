@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-02T10:08:20.039Z",
-  "total_projects": 313,
+  "total_projects": 314,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -858,6 +858,12 @@
               "name": "Clado",
               "url": "https://clado.ai",
               "description": "People search, LinkedIn enrichment, and deep research for lead generation",
+              "type": "external"
+            },
+            {
+              "name": "Agent Ready",
+              "url": "https://agent-ready.dev/api/x402/scan",
+              "description": "Pay-per-scan AI agent-readability scanner; scores any site against the agent-readability spec, llms.txt, and agent-protocol manifests. USDC on Base. Supports x402 + MPP.",
               "type": "external"
             }
           ]
