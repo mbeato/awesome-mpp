@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [StartupHub.ai](https://www.startuphub.ai/api/mpp/company) - Pay-per-call AI startup intelligence (profile, sectors, funding history, detected tech stack) for 23k+ AI companies; pay with USDC on Base via MPP/x402.
 
 ### Proxied via Tempo
 
