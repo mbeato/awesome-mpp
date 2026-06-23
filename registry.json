@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-02T10:08:20.039Z",
-  "total_projects": 313,
+  "generated_at": "2026-06-23T16:28:50.343Z",
+  "total_projects": 314,
   "categories": [
     {
       "name": "Protocol and Specs",
@@ -858,6 +858,12 @@
               "name": "Clado",
               "url": "https://clado.ai",
               "description": "People search, LinkedIn enrichment, and deep research for lead generation",
+              "type": "external"
+            },
+            {
+              "name": "AnyAPI",
+              "url": "https://getanyapi.com",
+              "description": "Unified marketplace for scraping and data APIs: reach hundreds of third-party data APIs through one key, pay per request in USD, with normalized schemas and automatic failover. Dual-protocol MPP (Tempo) and x402 (Base, USDC), no account",
               "type": "external"
             }
           ]
