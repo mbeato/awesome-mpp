@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [AnyAPI](https://getanyapi.com) - Unified marketplace for scraping and data APIs with 218 SKUs through one gateway. Pay per call in USD with no account via MPP on Tempo and x402 on Base. Schemas normalized with automatic failover.
 
 ### Proxied via Tempo
 
