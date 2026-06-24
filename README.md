@@ -190,6 +190,8 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [StockWaves](https://stockwaves.net) - China & global market intelligence (real-time Weibo/Baidu/Douyin pulse, structured CN news/events, theme momentum), cross-asset quant signals (A-share/HK/US equities, crypto, macro), and a tokenized-stock pre-trade safety gate for AI agents. Flagship cross-asset decision brief accepts native MPP + x402; settles USDC on Base.
+- [402Sentinel](https://402sentinel.com) - Pre-payment counterparty-risk scoring, buyer-side payment firewall (routing/amount/velocity + prompt-injection + intent-mismatch), OFAC/FATF compliance screening, and tokenized-RWA token safety checks for agent payments. Risk gate accepts native MPP + x402; settles USDC on Base.
 
 ### Proxied via Tempo
 
