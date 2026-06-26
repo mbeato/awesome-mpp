@@ -36,6 +36,7 @@
 
 - [mppx-rb](https://github.com/cjavdev/mppx-rb) - Ruby SDK for MPP.
 - [mpp-go](https://github.com/deszhou/mpp-go) - Community Go SDK for MPP.
+- [inference-sh/mpp](https://github.com/inference-sh/mpp) - Go middleware for `net/http` (chi, gorilla, stdlib). Stripe fiat built-in, AllowFallthrough for dual API-key/MPP auth, dynamic pricing, OnPayment billing hook.
 - [fastapi-mpp](https://github.com/SylvainCostes/fastapi-mpp) - FastAPI middleware for Python.
 - [ZenHive/mpp](https://github.com/ZenHive/mpp) - Elixir implementation of MPP.
 - [dotnet-sdk-mpp](https://github.com/evenuss/dotnet-sdk-mpp) - .NET SDK for MPP.
