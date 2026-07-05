@@ -190,7 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
-- [Tempo Data API](https://venture-mpp.vercel.app) - Pay-per-call Tempo mainnet on-chain data for agents: TIP-20 token metadata (name, symbol, decimals, supply) and holder balances, settled in USDC.e via HTTP 402. Machine-discoverable at `/openapi.json`.
+- [Tempo Data API](https://venture-mpp.vercel.app) - Pay-per-call Tempo mainnet on-chain data (TIP-20 token metadata + holder balances) and AI image generation for agents, settled in USDC.e via HTTP 402. Machine-discoverable at `/openapi.json`.
 
 ### Proxied via Tempo
 
