@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Voda Astro Data API](https://astro.dutchdata.io) - Astrology charts, transit/mundane time series, and global location data at a flat $0.50/request. Dual-protocol: MPP (Stripe + Tempo) and x402 USDC on Base; discovery at [/openapi.json](https://astro.dutchdata.io/openapi.json).
 
 ### Proxied via Tempo
 
