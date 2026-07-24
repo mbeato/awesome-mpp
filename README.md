@@ -187,6 +187,7 @@ Services with built-in MPP payment support:
 - [Dune](https://dune.com) - Query raw transaction data, decoded smart contract events, stablecoin flows, and protocol analytics.
 - [Judge0](https://judge0.com) - Online code execution in 60+ programming languages with sandboxed isolation.
 - [Modal](https://modal.com) - Serverless GPU compute for sandboxed code execution and AI/ML workloads.
+- [NitroTranslate](https://nitrotranslate.com) - Professional human translation service that accepts orders and payments from AI agents via Machine Payments Protocol.
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
