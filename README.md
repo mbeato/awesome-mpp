@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [twitr.sh](https://twitr.sh) - Pay-per-call X (Twitter) data for AI agents: reads, search, timelines, bulk extractions, real-time account and keyword monitors with signed webhooks, and posting through a connected account.
 
 ### Proxied via Tempo
 
