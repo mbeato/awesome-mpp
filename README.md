@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Reletter](https://reletter.com) - Search 7M+ newsletters and full-text archives, with subscriber numbers, contacts, social accounts, rankings, and audience data. Agents can buy request bundles programmatically through HTTP 402 using MPP, with no browser signup required.
 
 ### Proxied via Tempo
 
