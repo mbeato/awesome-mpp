@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [SameDayDesk](https://agents.samedaydesk.com/) - Fourteen pay-per-call web, business-data, DeFi-read, opportunity, payment-preflight, and agent-discoverability tools over REST and MCP. Supports native MPP and x402 exact payments in Base USDC.
 
 ### Proxied via Tempo
 
