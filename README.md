@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [BlinkCodes](https://blinkcodes.com/api/v1) - Storefront selling real-world digital goods to agents: gift card codes, game top-ups, and travel eSIMs, bought in one `POST /api/v1/buy` call. x402 (USDC on Base), consumable by MPP clients via x402 compatibility.
 
 ### Proxied via Tempo
 
