@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [EvidInvest](https://mcp.evidinvest.com/llms.txt) - SEC-filing-grounded equity research for AI agents: cited filing search, fair-value and DCF valuation, company snapshots, and supply-chain maps, priced dynamically per request with free quotes at /v1/quote.
 
 ### Proxied via Tempo
 
