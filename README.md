@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Neurobird Search](https://search.neurobird.com) - Web search for AI agents returning ranked results with the page passages that answer the query already extracted, plus clean markdown extraction of any URL. Dual protocol: the same 402 carries an MPP challenge and an x402 challenge.
 
 ### Proxied via Tempo
 
