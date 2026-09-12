@@ -190,7 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
-- [Emboss](https://getemboss.ai/docs/pay-per-call/mpp) - Turn flat PDF forms into fillable forms and fill them from data or documents, paid per call. Tempo (USDC.e) and Stripe SPT.
+- [Emboss](https://getemboss.ai/docs/pay-per-call/mpp) - Emboss turns any PDF form into a fillable one, fills it from data or supporting documents, reads a filled form back, and faxes the result to any fax number. Tempo (USDC.e) and Stripe SPT.
 
 ### Proxied via Tempo
 
