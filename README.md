@@ -234,6 +234,7 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 - [boltzpay](https://github.com/leventilo/boltzpay) - Multi-protocol, multi-chain payment fetch wrapper for AI agents.
 - [settlegrid](https://github.com/lexwhiting/settlegrid) - Settlement layer for AI agent payments with per-call billing, 10 protocols, and built-in discovery.
 - [marc](https://github.com/marc-protocol/marc) - Privacy layer for agent payments using FHE-encrypted tokens, agent identity, and escrow-based commerce.
+- [openai-agents-nano](https://github.com/PANDeveloper001/openai-agents-nano-x402) - Buyer-side x402 payer for the OpenAI Agents SDK that settles in self-custodied Nano (XNO) instead of a stablecoin; two-phase spend gate (dry-run quote then a single-use offer-bound token), capped before signing, PAID only on a ledger-confirmed block.
 
 ### MCP Bridges
 
