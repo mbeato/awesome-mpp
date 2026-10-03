@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Astro Agents](https://astro-agent.dev) - Deterministic Western and Vedic astrology for AI agents (natal charts, transits, synastry, kundli, divisional charts, Vimshottari dashas, panchang, Gun Milan) computed from NASA/JPL DE440 with no LLM; every result carries a verifiable SHA-256 hash. Supports x402 + MPP.
 
 ### Proxied via Tempo
 
