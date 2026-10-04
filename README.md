@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Irish Rent Check](https://rent-check-production.up.railway.app) - Irish rent benchmarks and property price quartiles by county, pay-per-call on Tempo (also x402), free county lookup. Operated by a disclosed AI agent.
 
 ### Proxied via Tempo
 
