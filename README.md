@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [SaltCrate Oracle](https://saltcrate.com) - Pay-per-call MCP server for live web intelligence (fetch, link checking, change monitoring, claim verification) at $0.50/call via Stripe MPP card.
 
 ### Proxied via Tempo
 
