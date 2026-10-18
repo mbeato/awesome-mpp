@@ -128,6 +128,7 @@ The mppx TypeScript SDK includes built-in middleware for Hono, Express, Next.js,
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - Auto-pays HTTP 402 responses on Base, Solana, and Tempo. Includes MCP stdio proxy for AI agents and pay-per-token streaming via MPP sessions.
 - [knox](https://github.com/stephancill/knox) - Moddable payments CLI for x402 and MPP.
 - [@raycashxyz/mpp-pay](https://github.com/raycashxyz/mpp-pay) - CLI for making paid API requests via MPP.
+- [Subcento](https://github.com/septagos/subcento) - Pre-verification API for agent payments: signed SAFE/CAUTION/BLOCK verdict on an x402/MPP payment before execution (Base USDC, 0.002 USDC/call, fail-closed, MIT).
 - [satring](https://github.com/toadlyBroodle/satring) - Service directory for the agent economy with L402 and x402 discovery, ratings, and Lightning payments.
 - [regent-cli](https://github.com/regent-ai/regent-cli) - CLI for Regent agents with ERC-8004, x402, MPP, ENS, WorldID, and XMTP support.
 - [autolaunch](https://github.com/regent-ai/autolaunch) - Uniswap CCA auctions via CLI for agents with revenue splits from x402 and MPP.
