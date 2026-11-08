@@ -190,6 +190,7 @@ Services with built-in MPP payment support:
 - [ScreenshotOne](https://screenshotone.com) - Website screenshot API for capturing any URL as PNG, JPEG, WebP, or PDF.
 - [Billboard](https://x.com/MPPBillboard) - Post to @MPPBillboard on X with dynamic pricing that doubles per post.
 - [Clado](https://clado.ai) - People search, LinkedIn enrichment, and deep research for lead generation.
+- [Oracle by SaltCrate](https://oracle.saltcrate.com) - Live web intelligence for AI agents from $0.01 per call (USDC), pay-per-call, no subscription. 7 tools (search, extract, fetch, check_link, check_change, monitor, verify). Card accepted ($0.50) on extract + monitor. No API key, no crypto wallet required.
 
 ### Proxied via Tempo
 
