@@ -209,6 +209,15 @@ Available through Tempo's MPP proxy at mpp.tempo.xyz -- pay with any MPP method:
 
 **Other Services:** [PostalForm](https://www.postalform.com), [StableEmail](https://stableemail.com), [StableEnrich](https://stableenrich.com), [StablePhone](https://stablephone.com), [StableSocial](https://stablesocial.com), [StableStudio](https://stablestudio.com), [StableUpload](https://stableupload.com), [Prospect Butcher](https://prospectbutcher.com)
 
+### Community
+
+- [FMF AI Tools](https://mpp-ai.fmf-x402.workers.dev/docs?ref=awesome-mpp) - Chat, text-to-speech, translation, embeddings and rerank. Pay-per-call MPP on Tempo, no API key. [OpenAPI](https://mpp-ai.fmf-x402.workers.dev/openapi.json) · [MCP](https://mpp-ai.fmf-x402.workers.dev/mcp) · [MPPScan](https://mppscan.com/server/fcafa36994b94441b5b0ba6e1ba249fc4519aebba060d372b6377200e1ddd597).
+- [FMF Control-plane](https://controlplane-x402.fmf-x402.workers.dev/docs?ref=awesome-mpp) - Who-controls-this-contract snapshots (Ethereum, Base, Tempo) plus Tempo token facts and balances. MPP and x402. [OpenAPI](https://controlplane-x402.fmf-x402.workers.dev/openapi.json) · [MPPScan](https://mppscan.com/server/550f65459dbede6f1d74738329f975e3e9401718e91aacc1d5713d308820b352).
+- [FMF Doc Tools](https://mpp-docs.fmf-x402.workers.dev/docs?ref=awesome-mpp) - Pay-per-call PDF, Office, audio, OCR and text tools for agents. MPP on Tempo, no API key. [OpenAPI](https://mpp-docs.fmf-x402.workers.dev/openapi.json) · [llms.txt](https://mpp-docs.fmf-x402.workers.dev/llms.txt) · [MCP](https://mpp-docs.fmf-x402.workers.dev/mcp) · [MPPScan](https://mppscan.com/server/a51d41e3e6b7e13c023381cc3205bc39c9f86fcaa876b0a537aa376aaa94c08c).
+- [FMF Research](https://mpp-research.fmf-x402.workers.dev/docs?ref=awesome-mpp) - Scholarly paper search, FDA labels and adverse events, recalls, clinical trials, LEI. [OpenAPI](https://mpp-research.fmf-x402.workers.dev/openapi.json) · [MCP](https://mpp-research.fmf-x402.workers.dev/mcp) · [MPPScan](https://mppscan.com/server/398d4d3b24b861fb95c94ac853bfcb00314de17a1676a06867be5ea74dee1268).
+- [FMF Utility Tools](https://mpp-tools.fmf-x402.workers.dev/docs?ref=awesome-mpp) - Tempo gas/tx/wallet/peg, signed session attestation receipts, QR make/scan, geocoding, tech detect, math, DNS, email verify, IP lookup. [OpenAPI](https://mpp-tools.fmf-x402.workers.dev/openapi.json) · [MCP](https://mpp-tools.fmf-x402.workers.dev/mcp) · [MPPScan](https://mppscan.com/server/9e1bdd61a4a81d1415afb31b63bf2b1fcdbf65f81ed6cd0786aee167a74b7edf).
+- [FMF Web & Data](https://mpp-agent-data.fmf-x402.workers.dev/docs?ref=awesome-mpp) - URL-to-Markdown, article and schema extraction, Wikipedia, SEC filings, weather, FX and Treasury yields. [OpenAPI](https://mpp-agent-data.fmf-x402.workers.dev/openapi.json) · [MCP](https://mpp-agent-data.fmf-x402.workers.dev/mcp) · [MPPScan](https://mppscan.com/server/c01b78f360331f2a67fd834188b8245d717c1fc388d8ffc88d768af8ce1a9f1a).
+
 ## Community Projects
 
 ### Agent Frameworks
